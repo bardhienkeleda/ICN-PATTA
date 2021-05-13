@@ -1,0 +1,49 @@
+victims:
+  V1:
+    x: 0
+    y: 1
+  V2:
+    x: 0
+    y: 2
+  V3:
+    x: 0
+    y: 3
+  V4 :
+    x: 0
+    y: 4
+  V5:
+    x: 0
+    y: 5  
+attacker:
+  A1:
+    x: 0
+    y: 11
+routers:
+  R1:
+    x: 2
+    y: 5
+  R2:
+    x: 3
+    y: 5
+  R3:
+    x: 4
+    y: 5
+producers:
+  P1:
+    x: 6
+    y: 4
+  P2:
+    x: 6
+    y: 7
+
+links:
+  - V1: R1
+  - V2: R1
+  - V3: R1
+  - V4: R1
+  - V5: R1
+  - A1: R1
+  - R1: R2
+  - R2: R3
+  - R3: P1
+  - R3: P2

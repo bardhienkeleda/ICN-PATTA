@@ -1,0 +1,8 @@
+# all the following commands should be run as root
+sudo ndnsec list #to see the list of identies
+sudo ndnsec list -c #to check the certificates
+sudo ndnsec list -i #to check the identities
+sudo ndnsec delete <certificate name> #delete the chosen certificate
+sudo ndnsec-key-gen /path/to/certificate # create key using prefix of contents that will be signed by that certificate (e.g. /google/com)
+sudo ndnsec-get-default #the recently added certificate is the default one
+sudo ndnsec-set-default /path/to/certificate #in order to set the default certificate 
