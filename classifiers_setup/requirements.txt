@@ -1,0 +1,13 @@
+pandas
+numpy
+re
+random
+seaborn
+sklearn
+matplotlib
+webbrowser
+requests
+bs4
+pickle
+urllib
+tldextract
