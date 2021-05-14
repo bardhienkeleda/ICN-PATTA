@@ -7,5 +7,5 @@ The project contains two main modules:
 
 ## Usage
 Documentation in order reproduce our work can be found in:
-- [a link] (https://github.com/bardhienkeleda/ICN-PATTA/blob/main/classifiers_setup/README.md)
-- 
+- [Classifiers setup phase:] (https://github.com/bardhienkeleda/ICN-PATTA/blob/main/classifiers_setup/README.md)
+-
