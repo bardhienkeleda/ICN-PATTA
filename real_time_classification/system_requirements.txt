@@ -1,0 +1,9 @@
+mininet==2.3.0d6
+Mini-NDN==0.5.0
+ndn-cxx==0.6.6
+NFD==0.6.6
+NLSR==0.5.2
+ndn-tools==0.6.4
+ChronoSync==0.5.3
+PyNDN2==2.11beta1
+PSync==0.2.0

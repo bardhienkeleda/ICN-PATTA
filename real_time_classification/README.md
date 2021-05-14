@@ -8,7 +8,7 @@ The repo contains three main modules:
 
  - app_classes: contains all the costumized applications for all nodes participating in the network: *victim(s)*, *attacker* and *producer(s)*.
  - app_executables: contains the executables that run in each node during simulation.
- - domain: contains the NDN dataset obtained during # Classifiers setup phase.
+ - domain: contains the NDN dataset obtained during the first phase.
  - ndn_core: contains the costumized miniNDN and NFD classes.
  - Topologies: contain the yaml files representing the network topologies.
 
