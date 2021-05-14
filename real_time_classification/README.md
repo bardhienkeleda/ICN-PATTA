@@ -81,3 +81,5 @@ Parameters for *-am (attacker model)*:
 - svm_1and2_2100
 - svm_1and2_2500
 - svm_1and2_3004
+
+The other parameters such as *-rf (requests file)*, *-f (freshness)*, *-l (name length)*, *-sr(sending rate)*, *-a(Zipf alpha parameter)* and *-at(attacker analysis time)* are kept constant during evaluation.
