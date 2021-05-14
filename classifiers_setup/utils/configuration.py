@@ -30,7 +30,14 @@ urls = ['http://baidu.com/', 'http://apache.org', 'http://web.mit.edu', 'http://
 'http://www.leeds.ac.uk', 'http://www.imperial.ac.uk', 'http://www.open.ac.uk', 'http://www.reading.ac.uk',
 'http://uea.ac.uk', 'http://www.irishnews.com', 'http://www.kit.edu']
 
+min_webpage_list = ['apache.org', 'web.mit.edu', 'asianews.it',
+'www.gnu.org','www.chinanews.com',
+'imageshack.us','www.italia.it','www.kit.edu',
+'www.imperial.ac.uk','icio.us']
 
 domains = ['baidu', 'apache', 'mit', 'gnu','washington',  'lycos', 'tapad', 'gohoi', 'ox', 'sigonews', 'itfactly',  'nyu', 'bizrate','imageshack', 'chinanews', 'ufl','icio',  'bu', 'wikidot',
     'rai', 'treccani', 'italia', 'tamilyogi', 'governo','spettacolovivo', 'asianews', 'mapei', 'salute', 'tusciaweb', 'senato', 'lse',
    'leeds', 'imperial','open', 'exeter', 'reading', 'uea', 'irishnews', 'kit']
+   
+min_domains = ['apache', 'asianews', 'mit', 'gnu','chinanews', 'imageshack','italia',
+'kit', 'imperial', 'icio']
