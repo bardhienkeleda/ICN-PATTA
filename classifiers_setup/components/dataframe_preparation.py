@@ -72,7 +72,8 @@ class Preprocessing():
         It returns the final dataframe.
         """
 
-        df = pd.read_csv(self.domain_path + '/' + 'labeled_dataset_1.csv')
+        df = pd.read_csv(self.domain_path + '/' + 'categorized_dataset.csv')
+        """
         for row in range(len(df)):
             if df['Full request URI'][row] == 'http://baidu.com/':
                 df['Label'][row] = 'baidu'
@@ -87,6 +88,7 @@ class Preprocessing():
 
         df = df.dropna()
         df = df.reset_index(drop=True)
+        """
 
         if configuration.WRITE_TEST_TRAIN:
             # shuffle dataframe for more randomness
@@ -103,9 +105,9 @@ class Preprocessing():
             df_test = df_test.reset_index(drop=True)
 
             # write train and test dataframes into files for later use
-            with open(self.domain_path + "/" + "train_instances_def.csv" , "w") as file:
+            with open(self.domain_path + "/" + "train_instances_new.csv" , "w") as file:
             	df_train.to_csv(file)
-            with open(self.domain_path + "/" + "test_instances_def.csv" , "w") as file:
+            with open(self.domain_path + "/" + "test_instances_new.csv" , "w") as file:
             	df_test.to_csv(file)
 
         # call preprocessing method and preprocess dataframe
@@ -117,11 +119,10 @@ class Preprocessing():
         df['Category_ID'] = self.label_encoder.fit_transform(df['Label'].tolist())
         # create a dictionary for later use
         labels_dictionary = dict(zip(self.label_encoder.classes_, self.label_encoder.transform(self.label_encoder.classes_)))
-        #print(labels_dictionary)
-        if configuration.WRITE_TEST_TRAIN:
         # save labels for latter use in online analysis
-        	with open("labels_dictionary.txt", "wb") as file:
-        		file.write(pickle.dumps(labels_dictionary))
+    	with open("labels_dictionary.txt", "wb") as file:
+    		file.write(pickle.dumps(labels_dictionary))
+
         return df
 
     def tfidf_features(self):
@@ -130,12 +131,12 @@ class Preprocessing():
         It returnsboth train and test features and labels, tfidf vectorizer.
         """
          # load train and test instances into dataframes
-         train_df = pd.read_csv(self.domain_path + "/" + "train_instances_def.csv")
+         train_df = pd.read_csv(self.domain_path + "/" + "train_instances_new.csv")
          train_df.drop("Unnamed: 0", axis=1, inplace=True)
          train_df = self.preprocessing(train_df)
          train_df['Category_ID'] = self.label_encoder.transform(train_df['Label'].tolist())
 
-         test_df = pd.read_csv(self.domain_path + "/" + "test_instances_def.csv")
+         test_df = pd.read_csv(self.domain_path + "/" + "test_instances_new.csv")
          test_df.drop("Unnamed: 0", axis=1, inplace=True)
          test_df = self.preprocessing(test_df)
          test_df['Category_ID'] = self.label_encoder.transform(test_df['Label'].tolist())

@@ -166,6 +166,4 @@ class Models():
             acc = pd.concat([mean_accuracy, std_accuracy], axis= 1,
                   ignore_index=True)
             acc.columns = ['Mean Accuracy', 'Standard deviation']
-            if configuration.WRITE_MODELS_CV:
-                pickle.dump(model, open(self.cv_models_path + '/' + "{}_1and2grams_maxfeat.sav".format(model_name), 'wb'))
         print(acc)
