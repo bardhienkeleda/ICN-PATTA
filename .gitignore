@@ -130,3 +130,6 @@ dmypy.json
 
 classifiers_setup/components/saved_models
 classifiers_setup/components/saved_tfidf_vectors
+real_time_classification/logs_results
+real_time_classification/app_executables/saved_models
+real_time_classification/app_executables/saved_tfidf_vectors
