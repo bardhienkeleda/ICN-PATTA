@@ -11,7 +11,6 @@ import sklearn
 import numpy as np
 import pickle
 import string
-from sklearn.utils import shuffle
 from sklearn.feature_selection import chi2
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import preprocessing
@@ -52,7 +51,7 @@ class Preprocessing():
         #df['Full request URI prep'] = ''
         #df['Full_NDN_interest'] = ''
         dataframe = df.copy()
-        print(dataframe.head(5))
+        #print(dataframe.head(5))
         # delete all the special characters from each url
         for row in range (0, len(df)):
             #print(row)
@@ -72,7 +71,7 @@ class Preprocessing():
             #print(df['Full request URI prep'][row])
             #res = re.split(r'W\+' , df['Full request URI'][row])
             res = dataframe['Full request URI'][row].split()
-            print(res)
+            #print(res)
             for index, word in enumerate(res):
                 if word in words_to_delete:
                     #print(word)
@@ -109,30 +108,6 @@ class Preprocessing():
         #df = df.reset_index(drop=True)
         df = self.preprocessing(df)
 
-        if configuration.WRITE_TEST_TRAIN:
-            # shuffle dataframe for more randomness
-            df = shuffle(df)
-            df = df.reset_index()
-            # split 19504 instances of dataframe in train and test
-            df_train = df.iloc[:13653]
-            #print(df_train.head(5))
-            #df_train.drop("Unnamed: 0", axis=1, inplace=True)
-            #df_train.drop("index", axis=1, inplace=True)
-            #df_train = df_train.reset_index(drop=True)
-            #print(df_train.head(5))
-
-            df_test = df.iloc[13653:]
-            print(df_test.head(5))
-            #df_test.drop("Unnamed: 0", axis=1, inplace=True)
-            #df_test.drop("index", axis=1, inplace=True)
-            #df_test = df_test.reset_index(drop=True)
-            print("Splitted in train and test. Now writing ....\n")
-            # write train and test dataframes into files for later use
-            with open(self.domain_path + "/" + "train_instances_new.csv" , "w") as file:
-            	df_train.to_csv(file)
-            with open(self.domain_path + "/" + "test_instances_new.csv" , "w") as file:
-            	df_test.to_csv(file)
-
         # encode the labels
         self.label_encoder = preprocessing.LabelEncoder()
         df['Category_ID'] = self.label_encoder.fit_transform(df['Label'].tolist())
@@ -156,14 +131,14 @@ class Preprocessing():
         train_df = pd.read_csv(self.domain_path + "/" + "train_instances_new.csv")
         print(train_df.head(5))
         train_df.drop("Unnamed: 0", axis=1, inplace=True)
-        train_df.drop("index", axis=1, inplace=True)
-        #train_df = self.preprocessing(train_df)
+        #train_df.drop("index", axis=1, inplace=True)
+        train_df = self.preprocessing(train_df)
         train_df['Category_ID'] = self.label_encoder.transform(train_df['Label'].tolist())
 
         test_df = pd.read_csv(self.domain_path + "/" + "test_instances_new.csv")
         test_df.drop("Unnamed: 0", axis=1, inplace=True)
-        test_df.drop("index", axis=1, inplace=True)
-        #test_df = self.preprocessing(test_df)
+        #test_df.drop("index", axis=1, inplace=True)
+        test_df = self.preprocessing(test_df)
         test_df['Category_ID'] = self.label_encoder.transform(test_df['Label'].tolist())
 
         # calculate tfidf for both train and test
@@ -208,4 +183,3 @@ class Preprocessing():
         self.id_to_category = dict(category_id_df[['Category_ID', 'Label']].values)
 
         return category_id_df, self.category_to_id, self.id_to_category
-

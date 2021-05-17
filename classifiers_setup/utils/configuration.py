@@ -2,12 +2,12 @@ KEYWORDS_NUMBER = 100
 MAX_WEBPAGES = 41
 MIN_WEBPAGES = 10
 NUMBER_FEATURES = 500
-GRAMS = (2, 2)
+GRAMS = (1, 2)
 PLOT_CON = False
 PLOT_CM = False
 WRITE_MODELS = False
 WRITE_MODELS_CV = True
-WRITE_TEST_TRAIN = False
+WRITE_TEST_TRAIN = True
 
 webpages_list = [ 'www.baidu.com', 'apache.org', 'web.mit.edu',
     'www.gnu.org','www.washington.edu', 'www.tripod.lycos.com', 'www.tapad.com',
@@ -38,6 +38,6 @@ min_webpage_list = ['apache.org', 'web.mit.edu', 'asianews.it',
 domains = ['baidu', 'apache', 'mit', 'gnu','washington',  'lycos', 'tapad', 'gohoi', 'ox', 'sigonews', 'itfactly',  'nyu', 'bizrate','imageshack', 'chinanews', 'ufl','icio',  'bu', 'wikidot',
     'rai', 'treccani', 'italia', 'tamilyogi', 'governo','spettacolovivo', 'asianews', 'mapei', 'salute', 'tusciaweb', 'senato', 'lse',
    'leeds', 'imperial','open', 'exeter', 'reading', 'uea', 'irishnews', 'kit']
-   
+
 min_domains = ['apache', 'asianews', 'mit', 'gnu','chinanews', 'imageshack','italia',
 'kit', 'imperial', 'icio']
