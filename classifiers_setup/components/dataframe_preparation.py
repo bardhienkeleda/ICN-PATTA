@@ -47,9 +47,7 @@ class Preprocessing():
         words_to_delete.append('html')
         words_to_delete.append('cn')
         words_to_delete = list(set(words_to_delete))
-        print(words_to_delete)
-        #df['Full request URI prep'] = ''
-        #df['Full_NDN_interest'] = ''
+
         dataframe = df.copy()
         #print(dataframe.head(5))
         # delete all the special characters from each url
@@ -129,7 +127,6 @@ class Preprocessing():
         print("calculating tfidf...\n")
         # load train and test instances into dataframes
         train_df = pd.read_csv(self.domain_path + "/" + "train_instances_new.csv")
-        print(train_df.head(5))
         train_df.drop("Unnamed: 0", axis=1, inplace=True)
         #train_df.drop("index", axis=1, inplace=True)
         train_df = self.preprocessing(train_df)

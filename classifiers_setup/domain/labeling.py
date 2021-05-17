@@ -50,16 +50,13 @@ if __name__ == '__main__':
         df_train.drop("index", axis=1, inplace=True)
         #print(df_train.head(5))
         #df_train.drop("Unnamed: 0", axis=1, inplace=True)
-        #df_train = df_train.reset_index(drop=True)
+        df_train = df_train.reset_index(drop=True)
         #print(df_train.head(5))
 
         df_test = dataframe.iloc[13653:]
         df_test.drop("index", axis=1, inplace=True)
+        df_test = df_test.reset_index(drop=True)
 
-        #df_test.drop("Unnamed: 0", axis=1, inplace=True)
-
-        #df_test = df_test.reset_index(drop=True)
-        print("Splitted in train and test. Now writing ....\n")
         # write train and test dataframes into files for later use
         with open("train_instances_new.csv" , "w") as file:
         	df_train.to_csv(file)
