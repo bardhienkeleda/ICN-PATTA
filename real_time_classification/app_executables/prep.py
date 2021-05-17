@@ -63,6 +63,5 @@ def tfidf_features(dataframe, tfidf):
     and transform the sniffed data, preparing this way the features for prediction.
     It returns these features.
     """
-     features = tfidf.transform(dataframe.Interest_Request).toarray()
-
-     return features
+    features = tfidf.transform(dataframe.Interest_Request).toarray()
+    return features

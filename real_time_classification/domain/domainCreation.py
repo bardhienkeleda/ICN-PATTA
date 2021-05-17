@@ -10,7 +10,7 @@ import pandas as pd
 
 if __name__ == '__main__':
 
-    dataframe = pd.read_csv('test_instances_def.csv')
+    dataframe = pd.read_csv('test_instances_new.csv')
     dataframe = dataframe.drop('Label', 1)
     dataframe = dataframe.drop('Unnamed: 0', 1)
     print(dataframe.head(5))
@@ -27,4 +27,4 @@ if __name__ == '__main__':
                 dataframe['Full request URI'][i] = string
                 print("Dataframe entry %s" % dataframe['Full request URI'][i])
 
-    #dataframe.to_csv('test_set.csv')
+    dataframe.to_csv('test_set_new.csv')

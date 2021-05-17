@@ -46,16 +46,16 @@ class SpecialMinindn(Minindn):
 			parser.add_argument("-at", "--attackerTime", type=float, help="Time for attacker's analysis (expressed in seconds)")
 			parser.add_argument("-am","--attackerModel", type=str, help="Machine Learning model used by the attacker", choices = ["linear_1_500","linear_1_900",
 		                                "linear_1_1300", "linear_1_1642", "linear_2_500", "linear_2_700","linear_2_900", "linear_2_1362",
-		                                "linear_1and2_500", "linear_1and2_900", "linear_1and2_1300", "linear_1and2_1700","linear_1and2_2100", "linear_1and2_2500", "linear_1and2_3005",
+		                                "linear_1and2_500", "linear_1and2_900", "linear_1and2_1300", "linear_1and2_1700","linear_1and2_2100", "linear_1and2_2500", "linear_1and2_3054",
 		                                "multinomial_1_500","multinomial_1_900", "multinomial_1_1300", "multinomial_1_1642",
 		                                "multinomial_2_500", "multinomial_2_700","multinomial_2_900", "multinomial_2_1362",
-		                                "multinomial_1and2_500", "multinomial_1and2_900", "multinomial_1and2_1300", "multinomial_1and2_1700","multinomial_1and2_2100", "multinomial_1and2_2500", "multinomial_1and2_3005",
+		                                "multinomial_1and2_500", "multinomial_1and2_900", "multinomial_1and2_1300", "multinomial_1and2_1700","multinomial_1and2_2100", "multinomial_1and2_2500", "multinomial_1and2_3054",
 		                                "rf_1_500","rf_1_900", "rf_1_1300", "rf_1_1642",
 		                                "rf_2_500", "rf_2_700","rf_2_900", "rf_2_1362",
-		                                "rf_1and2_500", "rf_1and2_900", "rf_1and2_1300", "rf_1and2_1700","rf_1and2_2100", "rf_1and2_2500", "rf_1and2_3005",
+		                                "rf_1and2_500", "rf_1and2_900", "rf_1and2_1300", "rf_1and2_1700","rf_1and2_2100", "rf_1and2_2500", "rf_1and2_3054",
 		                                "svm_1_500","svm_1_900", "svm_1_1300", "svm_1_1642",
 		                                "svm_2_500", "svm_2_700","svm_2_900", "svm_2_1362",
-		                                "svm_1and2_500", "svm_1and2_900", "svm_1and2_1300", "svm_1and2_1700","svm_1and2_2100", "svm_1and2_2500", "svm_1and2_3005"], default = "svm_1and2_3005")
+		                                "svm_1and2_500", "svm_1and2_900", "svm_1and2_1300", "svm_1and2_1700","svm_1and2_2100", "svm_1and2_2500", "svm_1and2_3054"])
 			parser.add_argument("--info", action="store_true", help="Only print dataset info") # --INFO
 			parser.add_argument("--dry", action="store_true", help="Only print requests") # --dry
 			parser.add_argument("-cstrat", '--cacheStrategy', help="Strategy used by the router(s) during the simulation", choices=["lru", "lfu", 						"priority_fifo"],default="lru")
@@ -65,7 +65,7 @@ class SpecialMinindn(Minindn):
 
 			return parser
 
-    @staticmethod
+	@staticmethod
 	def process_topology(topology_file):
 		topo = Topo()
         	with open(topology_file) as f:
