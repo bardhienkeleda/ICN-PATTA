@@ -10,12 +10,13 @@ if __name__ == '__main__':
 
     dataframe = pd.read_csv('labeled_dataset_1.csv')
 
-    cs = ['baidu', 'apache', 'gnu', 'tapad', 'icio', 'tripod', 'wikidot']
+    cs = ['baidu', 'apache', 'gnu', 'lycos', 'icio', 'tripod', 'wikidot']
     edu = ['mit', 'washington', 'ox', 'nyu', 'ufl', 'bu', 'lse', 'leeds', 'imperial', 'open', 'exeter', 'reading', 'uea', 'kit']
-    entert = ['gohoi', 'itfactly', 'imageshack', 'alternativenation']
-    news = ['sigonews', 'chinanews', 'palermotoday', 'tusciaweb', 'irishnews', 'asianews', 'senato', 'governo', 'rai']
-    life = ['bizrate', 'salute', 'mapei', 'spuntiespuntini']
-    culture = ['spettacolovivo', 'italia', 'treccani', 'tamilyogi']
+    entert = ['gohoi', 'itfactly', 'imageshack', 'alternativenation', 'tamilyogi', 'bizrate']
+    news = ['sigonews', 'chinanews', 'palermotoday', 'tusciaweb', 'irishnews', 'asianews','rai']
+    life = ['salute', 'mapei', 'spuntiespuntini']
+    culture = ['spettacolovivo', 'italia', 'treccani']
+    politics = ['governo', 'senato']
 
     for i in range(0, len(dataframe)):
         if dataframe['Label'][i] in cs:
@@ -30,7 +31,11 @@ if __name__ == '__main__':
             dataframe['Label'][i] = 'life care'
         elif dataframe['Label'][i] in culture:
             dataframe['Label'][i] = 'culture'
+        elif dataframe['Label'][i] in politics:
+            dataframe['Label'][i] = 'politics'
+
     dataframe = dataframe.dropna()
     dataframe = dataframe.reset_index(drop=True)
     dataframe.to_csv("categorized_dataset.csv")
     print(dataframe)
+

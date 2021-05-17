@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+classifiers_setup/components/saved_models
+classifiers_setup/components/saved_tfidf_vectors
