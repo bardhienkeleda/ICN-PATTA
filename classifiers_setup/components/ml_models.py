@@ -71,7 +71,7 @@ class Models():
             plt.title("CONFUSION MATRIX - RF\n", size=16);
             plt.show()
         if configuration.WRITE_MODELS:
-	    	rf_filename = "rf_model_1and2gram_maxfeat.sav"
+	    	rf_filename = "rf_model_1and2gram_3054feat_dom.sav"
 	    	pickle.dump(rf_model, open(self.models_path + '/' + rf_filename, 'wb'))
         return rf_model
 
@@ -94,7 +94,7 @@ class Models():
             plt.title("CONFUSION MATRIX - LinearSVC\n", size=16);
             plt.show()
         if configuration.WRITE_MODELS:
-	     	linear_filename = "linear_model_1and2gram_maxfeat.sav"
+	     	linear_filename = "linear_model_1and2gram_3054feat_dom.sav"
 	    	pickle.dump(linear_model, open(self.models_path + '/' + linear_filename, 'wb'))
         return linear_model
 
@@ -117,7 +117,7 @@ class Models():
             plt.title("CONFUSION MATRIX - MNB\n", size=16);
             plt.show()
         if configuration.WRITE_MODELS:
-            multinomial_filename = "multinomial_model_1and2gram_maxfeat.sav"
+            multinomial_filename = "multinomial_model_1and2gram_3054feat_dom.sav"
             pickle.dump(multinomial_model, open(self.models_path + '/' + multinomial_filename, 'wb'))
         return multinomial_model
 
@@ -140,7 +140,7 @@ class Models():
             plt.title("CONFUSION MATRIX - SVC\n", size=16);
             plt.show()
         if configuration.WRITE_MODELS:
-            svm_filename = "svm_model_1and2gram_maxfeat.sav"
+            svm_filename = "svm_model_1and2gram_3054feat_dom.sav"
             pickle.dump(svc_model, open(self.models_path + '/' + svm_filename, 'wb'))
         return svc_model
 

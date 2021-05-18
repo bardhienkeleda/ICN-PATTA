@@ -19,27 +19,29 @@ def preprocessing(dataframe):
     It returns the preprocessed data in form of a dataframe.
     """
     not_to_keep = []
+    """
     for webpg in range (len(configuration.webpages_list)):
         div = re.sub('[^A-Za-z0-9]+', ' ', str(configuration.webpages_list[webpg]))
         not_to_keep.append(div)
     for webpg in range (len(not_to_keep)):
         not_to_keep[webpg] = not_to_keep[webpg].split(" ")
+    """
 
     # prepare a list of words that should be droped
-    words_to_delete = [item for sublist in not_to_keep for item in sublist]
-    #words_to_delete = list(itertools.chain(*not_to_keep))
-    words_to_delete.append('http')
-    words_to_delete.append('wwwf')
-    words_to_delete.append('co')
-    words_to_delete.append('php')
-    words_to_delete.append('html')
-    words_to_delete.append('cn')
-    words_to_delete.append('ndn')
-    words_to_delete.append('PR')
-    words_to_delete.append('P1')
-    words_to_delete.append('site')
+    #words_to_delete = [item for sublist in not_to_keep for item in sublist]
+    not_to_keep.append('http')
+    not_to_keep.append('wwwf')
+    #words_to_delete.append('co')
+    not_to_keep.append('php')
+    not_to_keep.append('html')
+    #words_to_delete.append('cn')
+    not_to_keep.append('www')
+    not_to_keep.append('ndn')
+    not_to_keep.append('PR')
+    not_to_keep.append('P1')
+    not_to_keep.append('site')
 
-    words_to_delete = list(set(words_to_delete))
+    #words_to_delete = list(set(words_to_delete))
 
     # delete all the special characters from each url
     for row in range (len(dataframe)):
@@ -47,7 +49,7 @@ def preprocessing(dataframe):
         res = dataframe['Interest_Request'][row].split()
 
         for index, word in enumerate(res):
-            if word in words_to_delete:
+            if word in not_to_keep:
                 if index == 0:
                     dataframe['Interest_Request'][row] = dataframe['Interest_Request'][row].replace(word + ' ', ' ')
                 elif index == (len(res) - 1):

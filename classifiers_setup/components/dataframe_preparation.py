@@ -32,21 +32,25 @@ class Preprocessing():
         It returns the preprocessed dataframe.
         """
         not_to_keep = []
+        """
         for webpg in range (len(configuration.webpages_list)):
             div = re.sub('[^A-Za-z0-9]+', ' ', str(configuration.webpages_list[webpg]))
             not_to_keep.append(div)
         for webpg in range (len(not_to_keep)):
             not_to_keep[webpg] = not_to_keep[webpg].split(" ")
+        """
 
         # prepare a list of words that should be droped
-        words_to_delete = [item for sublist in not_to_keep for item in sublist]
-        words_to_delete.append('http')
-        words_to_delete.append('wwwf')
-        words_to_delete.append('co')
-        words_to_delete.append('php')
-        words_to_delete.append('html')
-        words_to_delete.append('cn')
-        words_to_delete = list(set(words_to_delete))
+        #words_to_delete = [item for sublist in not_to_keep for item in sublist]
+        not_to_keep.append('http')
+        not_to_keep.append('wwwf')
+        #words_to_delete.append('co')
+        not_to_keep.append('php')
+        not_to_keep.append('html')
+        #words_to_delete.append('cn')
+        not_to_keep.append('www')
+
+        #words_to_delete = list(set(words_to_delete))
 
         dataframe = df.copy()
         #print(dataframe.head(5))
@@ -71,7 +75,7 @@ class Preprocessing():
             res = dataframe['Full request URI'][row].split()
             #print(res)
             for index, word in enumerate(res):
-                if word in words_to_delete:
+                if word in not_to_keep:
                     #print(word)
                     if index == 0:
                         #print(df['Full request URI'][row].replace(word + ' ', ' '))
@@ -83,7 +87,7 @@ class Preprocessing():
                         dataframe['Full request URI'][row] = dataframe['Full request URI'][row].replace(' ' + word , ' ')
                     else:
                         dataframe['Full request URI'][row] = dataframe['Full request URI'][row].replace(' ' + word + ' ', ' ')
-        #print(dataframe.head(10))
+        print(dataframe.head(10))
         #df.drop(['Full request URI', 'Full request URI prep'], axis=1, inplace = True)
         #dataframe.drop("index", axis=1, inplace=True)
         dataframe.columns = ['Full_NDN_interest', 'Label']
@@ -124,7 +128,7 @@ class Preprocessing():
         Method used to calculate the TF-IDF features for training and testing phase.
         It returnsboth train and test features and labels, tfidf vectorizer.
         """
-        print("calculating tfidf...\n")
+        print("Calculating tfidf...")
         # load train and test instances into dataframes
         train_df = pd.read_csv(self.domain_path + "/" + "train_instances_new.csv")
         train_df.drop("Unnamed: 0", axis=1, inplace=True)
@@ -148,7 +152,7 @@ class Preprocessing():
 
         # save tfidf test vectors which will be used for online analysis
         if configuration.WRITE_MODELS:
-         with open(self.tfidf_vectors_path + "/" + "tfidf_vector_1and2gram_maxfeat.pk" , "wb") as file:
+         with open(self.tfidf_vectors_path + "/" + "tfidf_vector_1and2gram_3054feat_dom.pk" , "wb") as file:
          	pickle.dump(self.tfidf, file)
         print("Each of the %d training NDN interest names is represented by %d features" % (self.train_features.shape))
         print("Each of the %d test NDN interest names is represented by %d features" % (self.test_features.shape))

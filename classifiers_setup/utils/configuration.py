@@ -7,7 +7,7 @@ PLOT_CON = False
 PLOT_CM = False
 WRITE_MODELS = True
 WRITE_MODELS_CV = True
-WRITE_TEST_TRAIN = True
+WRITE_TEST_TRAIN = False
 
 webpages_list = [ 'www.baidu.com', 'apache.org', 'web.mit.edu',
     'www.gnu.org','www.washington.edu', 'www.tripod.lycos.com', 'www.tapad.com',
