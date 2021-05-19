@@ -87,7 +87,7 @@ class Preprocessing():
                         dataframe['Full request URI'][row] = dataframe['Full request URI'][row].replace(' ' + word , ' ')
                     else:
                         dataframe['Full request URI'][row] = dataframe['Full request URI'][row].replace(' ' + word + ' ', ' ')
-        print(dataframe.head(10))
+        #print(dataframe.head(10))
         #df.drop(['Full request URI', 'Full request URI prep'], axis=1, inplace = True)
         #dataframe.drop("index", axis=1, inplace=True)
         dataframe.columns = ['Full_NDN_interest', 'Label']
@@ -143,8 +143,9 @@ class Preprocessing():
         test_df['Category_ID'] = self.label_encoder.transform(test_df['Label'].tolist())
 
         # calculate tfidf for both train and test
-        self.tfidf = TfidfVectorizer(sublinear_tf=True, min_df =5,  ngram_range=configuration.GRAMS, stop_words='english') #max_features= configuration.NUMBER_FEATURES,
+        self.tfidf = TfidfVectorizer(sublinear_tf=True, min_df =10, ngram_range=configuration.GRAMS, stop_words='english') #min_df =5, max_features= configuration.NUMBER_FEATURES,
         self.train_features = self.tfidf.fit_transform(train_df.Full_NDN_interest).toarray()
+        #print(self.train_features)
         self.test_features = self.tfidf.transform(test_df.Full_NDN_interest).toarray()
         # calculate labels for both train and test
         self.train_labels = train_df.Category_ID
@@ -152,8 +153,13 @@ class Preprocessing():
 
         # save tfidf test vectors which will be used for online analysis
         if configuration.WRITE_MODELS:
-         with open(self.tfidf_vectors_path + "/" + "tfidf_vector_1and2gram_3054feat_dom.pk" , "wb") as file:
-         	pickle.dump(self.tfidf, file)
+            with open(self.tfidf_vectors_path + "/" + "tfidf_vector_1gram_866feat.pk" , "wb") as file:
+            	pickle.dump(self.tfidf, file)
+            with open(self.tfidf_vectors_path + "/" + "train_features_1gram_866feat.pk" , "wb") as file:
+            	pickle.dump(self.train_features, file)
+            with open(self.tfidf_vectors_path + "/" + "train_labels_1gram_866feat.pk" , "wb") as file:
+            	pickle.dump(self.train_labels, file)
+
         print("Each of the %d training NDN interest names is represented by %d features" % (self.train_features.shape))
         print("Each of the %d test NDN interest names is represented by %d features" % (self.test_features.shape))
 
@@ -164,7 +170,7 @@ class Preprocessing():
         """
         Function used to calculate and print the most N correlated terms for a certain N
         """
-        N = 3
+        N = 30
         for Label, category_id in sorted(self.category_to_id.items()):
 
             features_chi2 = chi2(self.train_features, self.train_labels == category_id)
@@ -174,7 +180,16 @@ class Preprocessing():
             bigrams = [v for v in feature_names if len(v.split(' ')) == 2]
             print("\n==> %s:" %(Label))
             print("  * Most Correlated Unigrams are: %s" %(', '.join(unigrams[-N:])))
+            with open("unigrams_3836.txt", "w") as unigramFile:
+                unigramFile.write(Label)
+                for line in unigrams:
+                    unigramFile.write(line + '\n')
+
             print("  * Most Correlated Bigrams are: %s" %(', '.join(bigrams[-N:])))
+            with open("bigrams_3836.txt", "w") as bigramFile:
+                bigramFile.write(Label)
+                for line in bigrams:
+                    bigramFile.write(line + '\n')
 
     def label_dictionaries(self, dataframe):
 

@@ -1,12 +1,12 @@
 KEYWORDS_NUMBER = 100
 MAX_WEBPAGES = 41
 MIN_WEBPAGES = 10
-NUMBER_FEATURES = 500
-GRAMS = (1, 2)
+NUMBER_FEATURES = 50
+GRAMS = (1, 1)
 PLOT_CON = False
 PLOT_CM = False
 WRITE_MODELS = True
-WRITE_MODELS_CV = True
+WRITE_MODELS_CV = False
 WRITE_TEST_TRAIN = False
 
 webpages_list = [ 'www.baidu.com', 'apache.org', 'web.mit.edu',
