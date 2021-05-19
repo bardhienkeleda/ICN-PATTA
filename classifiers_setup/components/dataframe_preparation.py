@@ -32,61 +32,59 @@ class Preprocessing():
         It returns the preprocessed dataframe.
         """
         not_to_keep = []
-        """
+
         for webpg in range (len(configuration.webpages_list)):
             div = re.sub('[^A-Za-z0-9]+', ' ', str(configuration.webpages_list[webpg]))
             not_to_keep.append(div)
         for webpg in range (len(not_to_keep)):
             not_to_keep[webpg] = not_to_keep[webpg].split(" ")
-        """
+
 
         # prepare a list of words that should be droped
-        #words_to_delete = [item for sublist in not_to_keep for item in sublist]
-        not_to_keep.append('http')
-        not_to_keep.append('wwwf')
-        #words_to_delete.append('co')
-        not_to_keep.append('php')
-        not_to_keep.append('html')
-        #words_to_delete.append('cn')
-        not_to_keep.append('www')
+        words_to_delete = [item for sublist in not_to_keep for item in sublist]
+        words_to_delete.append('http')
+        words_to_delete.append('wwwf')
+        words_to_delete.append('co') #
+        words_to_delete.append('php')
+        words_to_delete.append('html')
+        words_to_delete.append('cn') #
+        words_to_delete.append('www')
 
-        #words_to_delete = list(set(words_to_delete))
+        words_to_delete = list(set(words_to_delete))
 
         dataframe = df.copy()
         #print(dataframe.head(5))
         # delete all the special characters from each url
         for row in range (0, len(df)):
-            #print(row)
             word_pattern = re.compile('[^A-Za-z0-9]+')
-            #specialChars = "-!#$%^&*(),/.:"
-            #trans = string.maketrans(specialChars, ' '*len(specialChars))
-            #line = str(df['Full request URI'][row])
-            #df['Full request URI prep'][row] = line.translate(trans)
-
             dataframe['Full request URI'][row] = word_pattern.sub(' ', str(df['Full request URI'][row]))
-            #df['Full request URI'][row] = dataframe['Full request URI'][row]
-
-            #specialChars = "!#$%^&*(),/"
-            #for schar in specialChars:
-                #df['Full request URI'][row] = string.replace(schar, " ")
-            #print(df['Full request URI'][row])
-            #print(df['Full request URI prep'][row])
-            #res = re.split(r'W\+' , df['Full request URI'][row])
             res = dataframe['Full request URI'][row].split()
-            #print(res)
+            #print("Res: {}".format(res))
+            #results = []
+            """
+            for word in res:
+                if (len(word) > 3) & (word.isalpha()):
+                    print(word)
+                else:
+                    res.remove(word)
+            #print("Result: {}".format(res))
+            dataframe['Full request URI'][row] = ' '.join(res)
+            #print("Dataframe prima \n")
+            print("Dataframe row: {}".format(dataframe['Full request URI'][row]))
+            """
+
             for index, word in enumerate(res):
-                if word in not_to_keep:
-                    #print(word)
+                if (len(word) <= 3) or (word.isalpha == False) or (word in words_to_delete):
+                #if word in not_to_keep:
                     if index == 0:
-                        #print(df['Full request URI'][row].replace(word + ' ', ' '))
                         dataframe['Full request URI'][row] = dataframe['Full request URI'][row].replace(word + ' ', ' ')
                         #print(value)
                         #print(dataframe['Full request URI'][row])
                     elif index == (len(res) - 1):
-                        #print("entered")
                         dataframe['Full request URI'][row] = dataframe['Full request URI'][row].replace(' ' + word , ' ')
                     else:
                         dataframe['Full request URI'][row] = dataframe['Full request URI'][row].replace(' ' + word + ' ', ' ')
+        #print("Dataframe dopo\n")
         #print(dataframe.head(10))
         #df.drop(['Full request URI', 'Full request URI prep'], axis=1, inplace = True)
         #dataframe.drop("index", axis=1, inplace=True)
@@ -153,11 +151,11 @@ class Preprocessing():
 
         # save tfidf test vectors which will be used for online analysis
         if configuration.WRITE_MODELS:
-            with open(self.tfidf_vectors_path + "/" + "tfidf_vector_1gram_866feat.pk" , "wb") as file:
+            with open(self.tfidf_vectors_path + "/" + "tfidf_vector_1gram_653feat.pk" , "wb") as file:
             	pickle.dump(self.tfidf, file)
-            with open(self.tfidf_vectors_path + "/" + "train_features_1gram_866feat.pk" , "wb") as file:
+            with open(self.tfidf_vectors_path + "/" + "train_features_1gram_653feat.pk" , "wb") as file:
             	pickle.dump(self.train_features, file)
-            with open(self.tfidf_vectors_path + "/" + "train_labels_1gram_866feat.pk" , "wb") as file:
+            with open(self.tfidf_vectors_path + "/" + "train_labels_1gram_653feat.pk" , "wb") as file:
             	pickle.dump(self.train_labels, file)
 
         print("Each of the %d training NDN interest names is represented by %d features" % (self.train_features.shape))

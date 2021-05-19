@@ -101,7 +101,10 @@ if __name__ == "__main__":
     #df = top_mean_feats(train_features, feature_names, None, 0.1, 1000)
     dfs = top_feats_by_class(train_features, train_labels, feature_names, 0.1, 10)
     print(dfs[1])
-    plot_tfidf_classfeats_h(dfs)
+    words = ['abadns42jd00', 'amico', 'news', 'www']
+    for word in words:
+        print(word.isalpha())
+    #plot_tfidf_classfeats_h(dfs)
     #dense = train_features.todense()
     #denselist = train_features.tolist()
     #df = pd.DataFrame(denselist, columns = feature_names)
