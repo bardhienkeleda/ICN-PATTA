@@ -6,7 +6,7 @@
 
 import webbrowser
 import time
-from pykeyboard import PyKeyboard
+#from pykeyboard import PyKeyboard
 import requests
 import re
 import configuration

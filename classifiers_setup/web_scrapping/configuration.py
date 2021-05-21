@@ -12,7 +12,7 @@ DEBUG = True  # set to True to enable useful console output
 
 
 #urls = ['http://www.spettacolovivo.it']
-
+"""
 urls = ['http://baidu.com/', 'http://apache.org', 'http://web.mit.edu',
         'http://www.gnu.org', 'http://www.washington.edu', 'http://www.tripod.lycos.com',
         'http://www.tapad.com', 'http://gohoi.com/', 'http://www.ox.ac.uk', 'http://sigonews.com',
@@ -27,7 +27,8 @@ urls = ['http://baidu.com/', 'http://apache.org', 'http://web.mit.edu',
         'http://www.leeds.ac.uk', 'http://www.imperial.ac.uk', 'http://www.open.ac.uk',
         'http://www.exeter.ac.uk', 'http://www.reading.ac.uk', 'http://uea.ac.uk',
         'http://www.irishnews.com', 'http://www.kit.edu']
-
+"""
+urls = ['http://miami.edu', 'http://cu.edu', 'http://www.aber.ac.uk', 'http://www.bournemouth.ac.uk', 'http://www.uel.ac.uk']
 # must use a valid user agent or sites will hate you
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) ' \
 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
