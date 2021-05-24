@@ -8,11 +8,15 @@ import pickle
 import numpy as np
 import pandas as pd
 import re
+import random
+import glob
+import os
 from os.path import dirname, abspath
 import matplotlib.pyplot as plt
 
+
 BASIC_DIRECTORY = (abspath(dirname(__file__)))
-domain_path = BASIC_DIRECTORY + "/domain/train_instances_new.csv"
+domain_path = BASIC_DIRECTORY + "/domain/URL_Classification.csv"
 tfidf_vector_path = BASIC_DIRECTORY + "/components/saved_tfidf_vectors/"
 words = "866"
 grams = "1gram_"
@@ -77,11 +81,11 @@ def plot_tfidf_classfeats_h(dfs):
     plt.show()
 
 
+
 if __name__ == "__main__":
 
-    dataframe = pd.read_csv(domain_path)
-    dataframe.drop("Unnamed: 0", axis=1, inplace=True)
-    print(dataframe.head(5))
+
+    #### OLD CODE FOR KEYWORD PLOT ####
     with open(BASIC_DIRECTORY + "/" + "labels_dictionary.txt", "rb") as file:
         labels_dictionary = pickle.load(file)
     print(labels_dictionary)
@@ -95,6 +99,7 @@ if __name__ == "__main__":
     with open(tfidf_vector_path + "train_labels_"+ grams + words +"feat.pk", "rb") as file:
         train_labels = pickle.load(file)
 
+
     feature_names = tfidf.get_feature_names()
     #df = top_tfidf_feats(train_features[1], feature_names, 5)
     #df = top_feats_in_doc(train_features, feature_names, 1, 5)
@@ -105,11 +110,4 @@ if __name__ == "__main__":
     for word in words:
         print(word.isalpha())
     #plot_tfidf_classfeats_h(dfs)
-    #dense = train_features.todense()
-    #denselist = train_features.tolist()
-    #df = pd.DataFrame(denselist, columns = feature_names)
-    #print(train_features[1])
-    #dictionary = dict(zip(tfidf.get_feature_names(), train_features[0]))
-    #df = pd.DataFrame(dictionary.items())
-    #print(df.head(20))
-    #df.to_csv("dict_df.csv")
+    
