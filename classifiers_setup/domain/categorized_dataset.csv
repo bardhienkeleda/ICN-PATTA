@@ -1,0 +1,1282 @@
+,Full request URI,Label
+0,http://gmpg.org/xfn/11,News
+1,http://www.bu.edu/academics,Education
+2,http://www.bu.edu/admissions,Education
+3,http://www.bu.edu/international/,Education
+4,http://www.bu.edu/transfer/,Education
+5,http://www.bu.edu/finaid/,Education
+6,http://www.bu.edu/extended/,Education
+7,http://www.bu.edu/academics/,Education
+8,http://www.bu.edu/academics/schools-colleges/,Education
+9,http://www.bumc.bu.edu/,Education
+10,http://www.bu.edu/academics/degree-programs/,Education
+11,http://www.bu.edu/academics/bulletin/,Education
+12,http://www.bu.edu/summer/,Education
+13,http://www.bu.edu/digital/,Education
+14,http://www.bu.edu/research/cf/,Education
+15,http://www.bu.edu/library/,Education
+16,http://www.bu.edu/researchsupport/,Education
+17,http://www.bu.edu/research/aboutus/award/,Education
+18,http://www.bu.edu/researchsupport/project-lifecycle/finding-funding/,Education
+19,http://www.bu.edu/urop/students/on-campus-opportunities/,Education
+20,http://www.bu.edu/global/,Education
+21,http://www.bu.edu/global/identity/,Education
+22,http://www.bu.edu/abroad/,Education
+23,http://www.bu.edu/global/study-research/,Education
+24,http://www.bu.edu/global/support/,Education
+25,http://www.bu.edu/global/where-are-we/,Education
+26,http://www.bu.edu/fitrec/,Education
+27,http://www.bu.edu/agganis/,Education
+28,http://www.bu.edu/sustainability/,Education
+29,http://www.bu.edu/trustees/,Education
+30,http://www.bu.edu/hr/,Education
+31,http://www.bu.edu/tech/,Education
+32,http://www.bu.edu/news/,Education
+33,http://www.bu.edu/students/,Education
+34,http://www.bu.edu/staff/,Education
+35,http://www.bu.edu/parentsprogram/,Education
+36,http://www.bu.edu/alumni/,Education
+37,http://www.bu.edu/policies/non-handbook-version-equal-opp-affirm-action/,Education
+38,http://www.bu.edu/copyright/,Education
+39,http://www.bu.edu/policies/digital-privacy-statement/,Education
+40,http://www.asianews.it/it.xml,News
+41,http://www.asianews.it/it.html,News
+42,http://www.asianews.it/it/Aiuta-AsiaNews.html,News
+43,"http://www.asianews.it/notizie-it/www.asianews.it,-ora-anche-in-inglese-e-cinese-127.html",News
+44,http://www.pime.org/,News
+45,http://www.asianews.it/list/subscribe-it.html,News
+46,http://twitter.com/asianewsit,News
+47,http://facebook.com/asianewsit,News
+48,http://www.asianews.it/theme-it/Cina-1.html,News
+49,http://www.asianews.it/theme-it/Dottrina-Sociale-della-Chiesa-3.html,News
+50,http://www.asianews.it/theme-it/Economia-6.html,News
+51,http://www.asianews.it/theme-it/India-10.html,News
+52,http://www.asianews.it/theme-it/Islam-5.html,News
+53,http://www.asianews.it/theme-it/Vaticano-2.html,News
+54,http://www.asianews.it/geo-it/Asia-Centrale-3.html,News
+55,http://www.asianews.it/geo-it/Kazakistan-26.html,News
+56,http://www.asianews.it/geo-it/Kyrgyzstan-30.html,News
+57,http://www.asianews.it/geo-it/Tagikistan-47.html,News
+58,http://www.asianews.it/geo-it/Turkmenistan-50.html,News
+59,http://www.asianews.it/geo-it/Uzbekistan-52.html,News
+60,http://www.asianews.it/geo-it/Asia-del-Nord-4.html,News
+61,http://www.asianews.it/geo-it/Mongolia-35.html,News
+62,http://www.asianews.it/geo-it/Russia-41.html,News
+63,http://www.asianews.it/geo-it/Cina-17.html,News
+64,http://www.asianews.it/geo-it/Corea-del-Nord-27.html,News
+65,http://www.asianews.it/geo-it/Corea-del-Sud-28.html,News
+66,http://www.asianews.it/geo-it/Giappone-25.html,News
+67,http://www.asianews.it/geo-it/Hong-Kong-58.html,News
+68,http://www.asianews.it/geo-it/Macao-33.html,News
+69,http://www.asianews.it/geo-it/Taiwan-46.html,News
+70,http://www.asianews.it/geo-it/Asia-Nord-Ovest-7.html,News
+71,http://www.asianews.it/geo-it/Armenia-9.html,News
+72,http://www.asianews.it/geo-it/Azerbaijan-10.html,News
+73,http://www.asianews.it/geo-it/Georgia-19.html,News
+74,http://www.asianews.it/geo-it/Asia-Sud-Est-5.html,News
+75,http://www.asianews.it/geo-it/Brunei-14.html,News
+76,http://www.asianews.it/geo-it/Cambogia-16.html,News
+77,http://www.asianews.it/geo-it/Filippine-39.html,News
+78,http://www.asianews.it/geo-it/Indonesia-21.html,News
+79,http://www.asianews.it/geo-it/Laos-31.html,News
+80,http://www.asianews.it/geo-it/Malaysia-34.html,News
+81,http://www.asianews.it/geo-it/Myanmar-15.html,News
+82,http://www.asianews.it/geo-it/Singapore-43.html,News
+83,http://www.asianews.it/geo-it/Tailandia-48.html,News
+84,http://www.asianews.it/geo-it/Timor-Est-18.html,News
+85,http://www.asianews.it/geo-it/Vietnam-53.html,News
+86,http://www.asianews.it/geo-it/Asia-del-Sud-2.html,News
+87,http://www.asianews.it/geo-it/Afghanistan-8.html,News
+88,http://www.asianews.it/geo-it/Bangladesh-12.html,News
+89,http://www.asianews.it/geo-it/Bhutan-13.html,News
+90,http://www.asianews.it/geo-it/India-20.html,News
+91,http://www.asianews.it/geo-it/Nepal-36.html,News
+92,http://www.asianews.it/geo-it/Pakistan-38.html,News
+93,http://www.asianews.it/geo-it/Sri-Lanka-44.html,News
+94,http://www.asianews.it/geo-it/Africa-63.html,News
+95,http://www.asianews.it/geo-it/America-Centrale-74.html,News
+96,http://www.asianews.it/geo-it/America-del-Nord-61.html,News
+97,http://www.asianews.it/geo-it/America-del-Sud-62.html,News
+98,http://www.asianews.it/geo-it/Europa-60.html,News
+99,http://www.asianews.it/geo-it/Medio-Oriente-1.html,News
+100,http://www.asianews.it/geo-it/Arabia-Saudita-42.html,News
+101,http://www.asianews.it/geo-it/Bahrain-11.html,News
+102,http://www.asianews.it/geo-it/Emirati-Arabi-Uniti-51.html,News
+103,http://www.asianews.it/geo-it/Giordania-59.html,News
+104,http://www.asianews.it/geo-it/Iran-22.html,News
+105,http://www.asianews.it/geo-it/Iraq-23.html,News
+106,http://www.asianews.it/geo-it/Israele-24.html,News
+107,http://www.asianews.it/geo-it/Kuwait-29.html,News
+108,http://www.asianews.it/geo-it/Libano-32.html,News
+109,http://www.asianews.it/geo-it/Oman-37.html,News
+110,http://www.asianews.it/geo-it/Palestina-57.html,News
+111,http://www.asianews.it/geo-it/Qatar-40.html,News
+112,http://www.asianews.it/geo-it/Siria-45.html,News
+113,http://www.asianews.it/geo-it/Turchia-49.html,News
+114,http://www.asianews.it/geo-it/Yemen-54.html,News
+115,http://www.asianews.it/geo-it/Oceania-73.html,News
+116,http://www.asianews.it/notizie-it/Mons.-Kondrusiewicz:-I-giovani-bielorussi-vogliono-vivere-in-modo-diverso-50945.html,News
+117,"http://www.asianews.it/notizie-it/Bangkok,-tornano-in-cella-due-leader-democratici-50944.html",News
+118,"http://www.asianews.it/notizie-it/Israele,-coronavirus:-nuovo-lockdown-per-contenere-i-contagi-50942.html",News
+119,http://www.asianews.it/notizie-it/Onu:-La-legge-sulla-sicurezza-per-Hong-Kong-viola-i-diritti-fondamentali-50941.html,News
+120,http://www.asianews.it/index.php?l=it&idn=1&filtro_art=1&data_art_filtro=2020-09-04,News
+121,http://www.asianews.it/notizie-it/Ragazzo-cristiano-resiste-alla-conversione-forzata-e-alle-minacce-di-giovani-musulmani-(Video)-50862.html,News
+122,http://www.asianews.it/notizie-it/Mons.-Kondrusiewicz-incontra-il-ministro;-Lukashenko-minaccia-le-Chiese-50857.html,News
+123,http://www.asianews.it/notizie-it/Patriarca-maronita:-elezioni-anticipate-e-nuovo-governo-per-sanare-una-nazione-ferita-50797.html,News
+124,http://www.asianews.it/it/Video-gallery.html,News
+125,http://www.asianews.it/index.php?l=it&idn=110&dossier=159,News
+126,http://www.asianews.it/index.php?l=it&idn=110&dossier=157,News
+127,http://www.asianews.it/index.php?l=it&idn=110&dossier=156,News
+128,http://www.asianews.it/index.php?l=it&idn=110&dossier=155,News
+129,http://www.asianews.it/index.php?l=it&idn=110&dossier=154,News
+130,"http://www.asianews.it/notizie-it/Cari-Amici,-vi-chiediamo-un-aiuto-per-AsiaNews-48108.html",News
+131,http://www.asianews.it/index.php?l=it&idn=111,News
+132,http://www.asianews.it/it/Mediterraneo.html,News
+133,http://www.asianews.it/it/Simposio-AsiaNews-2018.html,News
+134,http://www.asianews.it/it/Simposio-Asianews-2017.html,News
+135,http://www.asianews.it/index.php?l=it&idn=114,News
+136,http://www.asianews.it/it/Giappone-2019.html,News
+137,http://www.asianews.it/it/Terra-Santa-2018.html,News
+138,http://www.asianews.it/it/Myanmar-2018.html,News
+139,http://asianews.it/index.php?l=it&idn=117,News
+140,http://www.imperial-consultants.co.uk/,Education
+141,http://wwwf.imperial.ac.uk/business-school/executive-education/,Education
+142,http://www.imperial.ac.uk/news,Education
+143,http://wwwf.imperial.ac.uk/blog/student-blogs/,Education
+144,http://wwwf.imperial.ac.uk/blog/imperial-people/,Education
+145,http://www.imperial.ac.uk/collegedirectory/,Education
+146,http://www.imperial.nhs.uk/,Education
+147,http://www.ahsc.org.uk/,Education
+148,http://imperialcollegehealthpartners.com/,Education
+149,http://gohoi.com/,Arts & Entertainment
+150,http://gohoi.com/feed/,Arts & Entertainment
+151,http://gohoi.com/comments/feed/,Arts & Entertainment
+152,http://gohoi.com/xmlrpc.php?rsd,Arts & Entertainment
+153,http://gohoi.com/wp-includes/wlwmanifest.xml,Arts & Entertainment
+154,http://gohoi.com/about-us/,Arts & Entertainment
+155,http://gohoi.com/contact-us/,Arts & Entertainment
+156,http://gohoi.com/privacy-policy/,Arts & Entertainment
+157,http://gohoi.com/terms-and-conditions/,Arts & Entertainment
+158,http://gohoi.com/disclaimer/,Arts & Entertainment
+159,http://gohoi.com/honda-accord-hybrid/,Arts & Entertainment
+160,http://gohoi.com/category/cars/,Arts & Entertainment
+161,http://gohoi.com/gmc-canyon/,Arts & Entertainment
+162,http://gohoi.com/ford-taurus/,Arts & Entertainment
+163,http://gohoi.com/fiat-500x/,Arts & Entertainment
+164,http://gohoi.com/fiat-500l/,Arts & Entertainment
+165,http://gohoi.com/fiat-500/,Arts & Entertainment
+166,http://gohoi.com/fiat-124-sport-spider/,Arts & Entertainment
+167,http://gohoi.com/dodge-charger/,Arts & Entertainment
+168,http://gohoi.com/dodge-challenger/,Arts & Entertainment
+169,http://gohoi.com/dodge-journey/,Arts & Entertainment
+170,http://gohoi.com/page/2/,Arts & Entertainment
+171,http://gohoi.com/page/14/,Arts & Entertainment
+172,http://www.konvent.kit.edu/index.php,Education
+173,http://www.sek.kit.edu/kitaudio.php,Education
+174,http://www.kit.edu/campusplan/,Education
+175,http://www.pse.kit.edu/karriere/121.php,Education
+176,http://sigonews.com/wp-includes/wlwmanifest.xml,News
+177,http://moralthemes.com/,News
+178,http://planet.gnu.org/rss20.xml,Technology
+179,http://www.fsf.org/campaigns,Technology
+180,http://www.fsf.org/,Technology
+181,http://www.fsfla.org/,Technology
+182,http://fsf.org.in/,Technology
+183,http://creativecommons.org/licenses/by-nd/4.0/,Technology
+184,http://search.lse.ac.uk/s/search.html?collection=lse_external,Education
+185,http://blogs.lse.ac.uk/our-blogs/,Education
+186,http://www.lse.ac.uk/Study-at-LSE,Education
+187,http://www.lse.ac.uk/student-life,Education
+188,http://www.alumni.lse.ac.uk/s/1623/start-hybrid.aspx,Education
+189,http://www.lse.ac.uk/Business-and-consultancy,Education
+190,http://www.lse.ac.uk/supporting-lse,Education
+191,http://www.lsevacations.co.uk/Home.aspx,Education
+192,http://www.lse.ac.uk/student-life/accommodation,Education
+193,http://www.lse.ac.uk/lse-player?id=793d3fa5-1a64-48d2-925c-520d4f5300a2,Education
+194,http://www.lse.ac.uk/lse-player,Education
+195,http://www.lse.ac.uk/study-at-lse,Education
+196,http://blogs.lse.ac.uk/,Education
+197,http://www.lse.ac.uk/News,Education
+198,http://www.lse.ac.uk/lse-information/privacy-policy,Education
+199,http://www.bizrate.com/,Arts & Entertainment
+200,http://fonts.googleapis.com/css?family=Raleway:200,Arts & Entertainment
+201,http://m.bizrate.com/,Arts & Entertainment
+202,http://www.bizrate.com/categoryguide/,Arts & Entertainment
+203,http://www.bizrate.com/appliances/,Arts & Entertainment
+204,http://www.bizrate.com/automotive/,Arts & Entertainment
+205,http://www.bizrate.com/babies-kids/,Arts & Entertainment
+206,http://www.bizrate.com/books-magazines/,Arts & Entertainment
+207,http://www.bizrate.com/clothing-accessories/,Arts & Entertainment
+208,http://www.bizrate.com/computers-software/,Arts & Entertainment
+209,http://www.bizrate.com/dvds-videos/,Arts & Entertainment
+210,http://www.bizrate.com/electronics/,Arts & Entertainment
+211,http://www.bizrate.com/gifts-flowers-food/,Arts & Entertainment
+212,http://www.bizrate.com/health-beauty-supplies/,Arts & Entertainment
+213,http://www.bizrate.com/home-garden/,Arts & Entertainment
+214,http://www.bizrate.com/jewelry-watches/,Arts & Entertainment
+215,http://www.bizrate.com/music/,Arts & Entertainment
+216,http://www.bizrate.com/musical-instruments-accessories/,Arts & Entertainment
+217,http://www.bizrate.com/office-supplies/,Arts & Entertainment
+218,http://www.bizrate.com/pet-supplies/,Arts & Entertainment
+219,http://www.bizrate.com/sports-equipment-outdoor-gear/,Arts & Entertainment
+220,http://www.bizrate.com/toys-games/,Arts & Entertainment
+221,http://www.bizrate.com/video-games-accessories/,Arts & Entertainment
+222,http://connexity.com/about/,Arts & Entertainment
+223,http://www.bizrate.com/ratings_guide/guide.html,Arts & Entertainment
+224,http://www.bizrate.com/sitemap/top_products.html,Arts & Entertainment
+225,http://www.bizrate.com/sitemap/index.html,Arts & Entertainment
+226,http://about.bizrate.com/privacy-policy,Arts & Entertainment
+227,http://about.bizrate.com/user-agreement,Arts & Entertainment
+228,http://account.connexity.com/,Arts & Entertainment
+229,http://connexity.com/marketplace-listings/,Arts & Entertainment
+230,http://connexity.com/,Arts & Entertainment
+231,http://www.prixmoinscher.com/,Arts & Entertainment
+232,http://www.spardeingeld.de/,Arts & Entertainment
+233,http://www.shopzilla.it/,Arts & Entertainment
+234,http://www.rainews.it/,News
+235,http://www.raisport.rai.it/,News
+236,http://www.rai.it/dl/rai/text/ContentItem-9e40fc26-6bca-4fc7-a682-50d48a0f19e0.html,News
+237,http://www.rai.it/trasparenza/Contratto-di-servizio-e6731507-23ae-41bf-83dd-bf99b44b66ec.html,News
+238,http://www.rai.it/portale/Fornitori-22faa3d9-ff55-49e1-b5d0-39a5bb8d0085.html,News
+239,http://www.rai.it/trasparenza,News
+240,http://www.rai.it/portale/Cessione-capacita-trasmissiva-Rai-90df1f16-8bb9-4e51-9a82-12d79295025d.html,News
+241,http://www.rai.it/portale/Atti-di-notifica-d8970375-0a67-40f5-a49e-4442a919a79b.html,News
+242,http://www.rai.it/portale/Condizioni-tecnico-economiche-del-servizio-di-accesso-alla-capacit-trasmissiva-destinato-ai-fornitori-di-contenuti-radiofonici-nazionali-indipendenti-a043c9ee-dee6-45fe-9616-97021d0f594c.html,News
+243,http://www.rai.it/portale/LaScuolaNonSiFerma-b8e35487-a4ca-47d5-9e52-2023ea19a27e.html,News
+244,http://www.rai.it/portale/LA-RAI-IN-HD-8906f1d1-1ac9-4582-83d1-79db4bdaf257.html,News
+245,http://www.rai.it/dl/portali/site/page/Page-a7445bd0-27bc-419f-8a63-cdf993bed5de.html,News
+246,http://www.rai.it/portale/Partenariati-Rai-68b63243-1dc6-440c-ae10-c15b8cd7e33e.html,News
+247,http://www.rai.it/dl/docs/1484683111789CGC_DirezioneProduzioneTV.pdf,News
+248,http://www.raitalia.it/dl/PortaliRai/Page-ab48738e-506a-4d73-8abb-09248a9db82b.html,News
+249,http://www.irishnews.com/subscriptions,News
+250,http://www.irishnews.com/login,News
+251,http://www.irishnews.com/paywall/forgottenpassword,News
+252,http://www.irishnews.com/paywall/createaccount,News
+253,http://www.irishnews.com/epaper/newsstand/newsstand.php,News
+254,http://www.irishnews.com/notices,News
+255,http://www.irishnews.com/notices/,News
+256,http://www.irishnews.com/news/,News
+257,http://www.irishnews.com/opinion/,News
+258,http://www.irishnews.com/sport/gaafootball/,News
+259,http://www.irishnews.com/business/,News
+260,http://www.irishnews.com/sport/,News
+261,http://www.irishnews.com/lifestyle/,News
+262,http://www.irishnews.com/arts/,News
+263,http://www.irishnews.com/puzzles/,News
+264,http://www.irishnews.com/photos/,News
+265,http://www.irishnews.com/photos/picturegalleries/,News
+266,http://www.irishnews.com/coronavirus/,News
+267,http://www.irishnews.com/news/northernirelandnews/,News
+268,http://www.irishnews.com/news/politicalnews/,News
+269,http://www.irishnews.com/news/republicofirelandnews/,News
+270,http://www.irishnews.com/news/brexit/,News
+271,http://www.irishnews.com/news/uknews/,News
+272,http://www.irishnews.com/news/healthcarenews/,News
+273,http://www.irishnews.com/news/worldnews/,News
+274,http://www.irishnews.com/news/civilrights/,News
+275,http://www.irishnews.com/news/nama/,News
+276,http://www.irishnews.com/news/statepapers/,News
+277,http://www.irishnews.com/news/popevisit/,News
+278,http://www.irishnews.com/news/educationnews/,News
+279,http://www.irishnews.com/news/gfa20/,News
+280,http://www.irishnews.com/news/decommissioning/,News
+281,http://www.irishnews.com/news/omaghbombing/,News
+282,http://www.irishnews.com/news/johnhume/,News
+283,http://www.irishnews.com/news/generalelection/,News
+284,http://www.irishnews.com/news/localelection2019/,News
+285,http://www.irishnews.com/news/europeanelection2019/,News
+286,http://www.irishnews.com/news/assemblyelection/,News
+287,http://www.irishnews.com/opinion/letterstotheeditor/,News
+288,http://www.irishnews.com/opinion/leadingarticle/,News
+289,http://www.irishnews.com/opinion/cartoons/,News
+290,http://www.irishnews.com/opinion/columnists/,News
+291,http://www.irishnews.com/sport/hurlingandcamogie/,News
+292,http://www.irishnews.com/sport/opinion/,News
+293,http://www.irishnews.com/sport/footballsoccer/,News
+294,http://www.irishnews.com/sport/boxing/,News
+295,http://www.irishnews.com/sport/rugbyunion/,News
+296,http://www.irishnews.com/sport/golf/,News
+297,http://www.irishnews.com/sport/rioolympics/,News
+298,http://www.irishnews.com/sport/athletics/,News
+299,http://www.irishnews.com/sport/racing/,News
+300,http://www.irishnews.com/sport/othersports/,News
+301,http://www.irishnews.com/sport/euro2016/,News
+302,http://www.irishnews.com/business/businessnews/,News
+303,http://www.irishnews.com/business/economics/,News
+304,http://www.irishnews.com/business/personalfinance/,News
+305,http://www.irishnews.com/business/businesscolumnists/,News
+306,http://www.irishnews.com/business/businessinsight/,News
+307,http://www.irishnews.com/business/jobsnews/,News
+308,http://www.irishnews.com/business/wea/,News
+309,http://www.irishnews.com/lifestyle/familyandparenting/,News
+310,http://www.irishnews.com/lifestyle/slebsafari/,News
+311,http://www.irishnews.com/lifestyle/randomactofkindness/,News
+312,http://www.irishnews.com/lifestyle/tvandradio/,News
+313,http://www.irishnews.com/lifestyle/holidays/,News
+314,http://www.irishnews.com/lifestyle/property/,News
+315,http://www.irishnews.com/lifestyle/fashion/,News
+316,http://www.irishnews.com/lifestyle/foodanddrink/,News
+317,http://www.irishnews.com/lifestyle/motorsdrive/,News
+318,http://www.irishnews.com/lifestyle/gardening/,News
+319,http://www.irishnews.com/lifestyle/environment/,News
+320,http://www.irishnews.com/lifestyle/health/,News
+321,http://www.irishnews.com/lifestyle/faithmatters/,News
+322,http://www.irishnews.com/magazine/,News
+323,http://www.irishnews.com/magazine/science/,News
+324,http://www.irishnews.com/magazine/technology/,News
+325,http://www.irishnews.com/magazine/entertainment/,News
+326,http://www.irishnews.com/magazine/movies/,News
+327,http://www.irishnews.com/magazine/music/,News
+328,http://www.irishnews.com/magazine/tv/,News
+329,http://www.irishnews.com/magazine/soaps/,News
+330,http://www.irishnews.com/arts/film/,News
+331,http://www.irishnews.com/arts/music/,News
+332,http://www.irishnews.com/arts/books/,News
+333,http://www.irishnews.com/arts/stage/,News
+334,http://www.irishnews.com/arts/thebluffer/,News
+335,http://www.irishnews.com/notices/familynotices/,News
+336,http://www.irishnews.com/notices/livesremembered/,News
+337,http://www.irishnews.com/photos/photooftheday/,News
+338,http://www.irishnews.com/photos/graduationpictures/,News
+339,http://www.irishnews.com/photos/videodiaries/,News
+340,http://shop.irishnews.com/,News
+341,http://www.irishnews.com/other/ourjournalists,News
+342,http://www.irishnews.com/other/horoscopes,News
+343,http://www.irishnews.com/notice,News
+344,http://www.irishnews.com/directory,News
+345,http://www.irishnews.com/other/supplements,News
+346,http://www.irishnews.com/contactus,News
+347,http://www.irishnews.com/faq,News
+348,http://www.irishnews.com/aboutus,News
+349,http://www.dipintosales.co.uk/IrishNews/,News
+350,http://www.irishnews.com/wea,News
+351,http://www.irishnews.com/coachingdays/,News
+352,http://purl.org/dc/terms/,Education
+353,http://www.leeds.ac.uk/forstaff,Education
+354,http://www.leeds.ac.uk/forstaff/homepage/375/services,Education
+355,http://it.leeds.ac.uk/mobileapps,Education
+356,http://business.leeds.ac.uk/,Education
+357,http://www.llc.leeds.ac.uk/,Education
+358,http://www.leeds.ac.uk/staffaz,Education
+359,http://www.leeds.ac.uk/campusmap,Education
+360,http://www.leeds.ac.uk/jobs,Education
+361,http://www.alumni.leeds.ac.uk/,Education
+362,http://www.leeds.ac.uk/contact,Education
+363,http://library.leeds.ac.uk/,Education
+364,http://it.leeds.ac.uk/,Education
+365,http://www.luu.org.uk/,Education
+366,http://www.facebook.com/universityofleeds,Education
+367,http://www.twitter.com/universityleeds,Education
+368,http://www.youtube.com/universityofleeds,Education
+369,http://www.linkedin.com/edu/university-of-leeds-12706,Education
+370,http://instagram.com/universityofleeds/,Education
+371,http://www.leeds.ac.uk/rss/news,Education
+372,http://www.leeds.ac.uk/info/101000/masters_courses,Education
+373,http://www.leeds.ac.uk/info/116000/undergraduate,Education
+374,http://www.leeds.ac.uk/info/102000/research_degrees,Education
+375,http://www.leeds.ac.uk/info/123000/international_students,Education
+376,http://www.leeds.ac.uk/info/130503/online_courses,Education
+377,http://courses.leeds.ac.uk/,Education
+378,http://www.leeds.ac.uk/info/130576/clearing_and_confirmation,Education
+379,http://www.leeds.ac.uk/info/2000/research_and_innovation,Education
+380,http://www.leeds.ac.uk/info/3000/working_with_business,Education
+381,http://www.leeds.ac.uk/info/130560/global,Education
+382,http://www.leeds.ac.uk/info/4000/around_campus,Education
+383,http://www.leeds.ac.uk/info/5000/about,Education
+384,http://www.leeds.ac.uk/homepage/59/undergraduate_open_days,Education
+385,http://www.leeds.ac.uk/homepage/66/clearing_and_confirmation,Education
+386,http://www.leeds.ac.uk/spotlight-article/93/,Education
+387,http://www.leeds.ac.uk/undergraduate,Education
+388,http://www.leeds.ac.uk/masters_courses,Education
+389,http://www.leeds.ac.uk/pgr,Education
+390,http://www.leeds.ac.uk/internationalstudents,Education
+391,http://www.leeds.ac.uk/info/5000/about/133/heritage,Education
+392,http://www.leeds.ac.uk/faculties,Education
+393,http://www.leeds.ac.uk/governance,Education
+394,http://www.leeds.ac.uk/executive_group,Education
+395,http://www.leeds.ac.uk/news/,Education
+396,http://www.leeds.ac.uk/events/,Education
+397,http://www.leeds.ac.uk/academic_year,Education
+398,http://www.leeds.ac.uk/press,Education
+399,http://news.mit.edu/,Education
+400,http://now.mit.edu/,Education
+401,http://whereis.mit.edu/,Education
+402,http://calendar.mit.edu/,Education
+403,http://web.mit.edu/people.html,Education
+404,http://careers.mit.edu/,Education
+405,http://socialmediahub.mit.edu/,Education
+406,http://www.governo.it/it,News
+407,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-57x57.png,News
+408,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-60x60.png,News
+409,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-72x72.png,News
+410,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-76x76.png,News
+411,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-114x114.png,News
+412,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-120x120.png,News
+413,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-144x144.png,News
+414,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-152x152.png,News
+415,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/apple-icon-180x180.png,News
+416,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/favicon-32x32.png,News
+417,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/android-chrome-192x192.png,News
+418,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/favicon-96x96.png,News
+419,http://www.governo.it/sites/new.governo.it/themes/governo/governo-assets/favicon/favicon-16x16.png,News
+420,http://presidenza.governo.it/AmministrazioneTrasparente/index.html,News
+421,http://www.governo.it/en,News
+422,http://www.governo.it/it/tipologie-contenuto/notizie,News
+423,http://www.governo.it/it/articolo/sisma-2016-il-presidente-conte-incontra-i-sindaci-del-cratere-palazzo-chigi/15117,News
+424,http://www.governo.it/it/media/sisma-2016-conte-incontra-i-sindaci-del-cratere-palazzo-chigi/15120,News
+425,http://www.governo.it/it/dl-rilancio,News
+426,http://www.governo.it/it/faq-fasedue,News
+427,http://www.governo.it/it/coronavirus,News
+428,http://www.governo.it/it/cscovid19,News
+429,http://www.protezionecivile.gov.it/,News
+430,http://www.governo.it/notizie-chigi,News
+431,http://www.governo.it/it/tipologie-contenuto/consiglio-dei-ministri,News
+432,http://www.governo.it/it/articolo/consiglio-dei-ministri-n-62/15115,News
+433,http://www.governo.it/it/tipologie-contenuto/comunicati-stampa,News
+434,http://www.governo.it/it/articolo/tribunale-unificato-dei-brevetti-milano-citt-candidata/15121,News
+435,http://www.governo.it/it/media/il-presidente-conte-ad-amatrice/15103,News
+436,http://www.governo.it/gallerie,News
+437,http://www.governo.it/it/media/campagna-di-comunicazione-8-mille-allo-stato/15109,News
+438,http://www.governo.it/it/media/campagna-di-comunicazione-app-immuni-pi-siamo-e-meglio-stiamo/15111,News
+439,http://www.governo.it/it/media/il-presidente-conte-genova/15087,News
+440,http://www.governo.it/approfondimenti,News
+441,http://www.governo.it/it/approfondimento/i-contratti-istituzionali-di-sviluppo/12984,News
+442,http://www.governo.it/it/approfondimento/brexit/12733,News
+443,http://www.governo.it/it/approfondimento/cabina-di-regia-benessere-italia/13660,News
+444,http://www.governo.it/agenda,News
+445,http://www.governo.it/it/agenda/2020-09-03t000000/sisma-2016-il-presidente-conte-incontra-i-sindaci-del-cratere/15118,News
+446,http://www.governo.it/it/agenda/2020-09-03t000000/consiglio-dei-ministri-n-62/15113,News
+447,http://www.governo.it/it/agenda/2020-09-08t000000/conte-beirut/15108,News
+448,http://www.governo.it/articolo/uno-sguardo-su-palazzo-chigi/8333,News
+449,http://www.governo.it/news/ministeri,News
+450,http://www.governo.it/it/ministeri/ministero-dello-sviluppo-economico,News
+451,http://www.governo.it/it/articolo/digitalizzazione-delle-imprese-al-l-atlante-i40/14882,News
+452,http://www.governo.it/it/articolo/youth4climate-al-il-programma-di-eventi-virtuali-dedicati-ai-giovani-di-tutto-il-mondo,News
+453,http://www.governo.it/it/articolo/piano-transizione-40-il-decreto-attuativo/14801,News
+454,http://www.governo.it/notizie-presidenza,News
+455,http://www.governo.it/it/articolo/consegnato-il-logo-dell-autorit-nazionale-galileo-prs/14980,News
+456,http://presidenza.governo.it/AmministrazioneTrasparente/AltriContenuti/AccessoCivico/index.html,News
+457,http://presidenza.governo.it/AmministrazioneTrasparente/Organizzazione/TelefonoPostaElettronica/PEC.html,News
+458,http://presidenza.governo.it/AmministrazioneTrasparente/Organizzazione/TelefonoPostaElettronica/email.html,News
+459,http://www.governo.it/sala-stampa,News
+460,http://www.governo.it/come-fare,News
+461,http://www.governo.it/note-legali,News
+462,http://www.governo.it/feed/rss,News
+463,http://itfactly.com/,Arts & Entertainment
+464,http://itfactly.com/feed,Arts & Entertainment
+465,http://itfactly.com/comments/feed,Arts & Entertainment
+466,http://itfactly.com/xmlrpc.php?rsd,Arts & Entertainment
+467,http://itfactly.com/wp-includes/wlwmanifest.xml,Arts & Entertainment
+468,http://itfactly.com/about-us,Arts & Entertainment
+469,http://itfactly.com/contact-us,Arts & Entertainment
+470,http://itfactly.com/privacy-policy,Arts & Entertainment
+471,http://itfactly.com/terms-and-conditions,Arts & Entertainment
+472,http://itfactly.com/disclaimer,Arts & Entertainment
+473,http://itfactly.com/2020/01/its-not-wifi-its-mifi-what-is-that,Arts & Entertainment
+474,http://itfactly.com/2020/01/bose-noise-canceling-headphones,Arts & Entertainment
+475,http://itfactly.com/2020/01/introducing-the-apple-ipod,Arts & Entertainment
+476,http://itfactly.com/2020/01/the-amazon-kindle-revolutionizing-the-way-we-read,Arts & Entertainment
+477,http://itfactly.com/2020/01/ode-to-a-classic-the-motorola-pagewriter-2000,Arts & Entertainment
+478,http://itfactly.com/2020/01/the-apple-airport,Arts & Entertainment
+479,http://itfactly.com/2020/01/twitter,Arts & Entertainment
+480,http://itfactly.com/2020/01/ray-ban,Arts & Entertainment
+481,http://itfactly.com/2020/01/facebook,Arts & Entertainment
+482,http://itfactly.com/2020/01/diesel,Arts & Entertainment
+483,http://itfactly.com/page/2,Arts & Entertainment
+484,http://itfactly.com/page/3,Arts & Entertainment
+485,http://itfactly.com/page/4,Arts & Entertainment
+486,http://itfactly.com/page/12,Arts & Entertainment
+487,http://itfactly.com/category/brand-story,Arts & Entertainment
+488,http://itfactly.com/category/business,Arts & Entertainment
+489,http://itfactly.com/category/entertainment,Arts & Entertainment
+490,http://itfactly.com/category/fortune-500-company,Arts & Entertainment
+491,http://itfactly.com/category/technology,Arts & Entertainment
+492,http://itfactly.com/category/transportation,Arts & Entertainment
+493,http://itfactly.com/category/uncategorized,Arts & Entertainment
+494,http://itfactly.com/wp-login.php,Arts & Entertainment
+495,http://54.224.44.174/manage-subscription,Arts & Entertainment
+496,http://www.asianews.it/notizie-it/Mongolia-interna:-arrestata-una-giornalista-del-Los-Angeles-Times-50948.html,News
+497,http://www.youtube.com/senatoitaliano,News
+498,http://webtv.senato.it/webtv_live,News
+499,http://www.senato.it/leg/18/BGT/Schede/Ddliter/53158.htm,News
+500,http://www.senato.it/leg/18/BGT/Schede/Ddliter/dossier/53158_dossier.htm,News
+501,http://www.senato.it/leg/18/BGT/Schede/Ddliter/53249.htm,News
+502,http://www.senato.it/japp/bgt/showdoc/18/SommComm/0/1168740/index.html?part=doc_dc-sedetit_isr,News
+503,http://www.senato.it/documenti/repository/commissioni/comm05/calendario/convocazioni.pdf,News
+504,http://www.senato.it/leg/18/BGT/Schede/Ddliter/dossier/53249_dossier.htm,News
+505,http://www.senato.it/leg/18/BGT/Schede/Ddliter/53248.htm,News
+506,http://www.senato.it/service/PDF/PDFServer/BGT/01168647.pdf,News
+507,http://www.senato.it/leg/18/BGT/Schede/Ddliter/53258.htm,News
+508,http://senato.it/w3/AgendaNewV.nsf/AGWN?OpenAgent,News
+509,http://www.parlamento.it/home,News
+510,http://www.senatoragazzi.it/,News
+511,http://www.senato.it/sitostorico/home,News
+512,http://dati.senato.it/sito/home,News
+513,http://www.camera.it/leg18/1220,News
+514,http://www.camera.it/leg18/76,News
+515,http://www.camera.it/leg18/1047,News
+516,http://www.camera.it/leg18/96,News
+517,http://www.camera.it/leg18/13,News
+518,http://www.camera.it/leg18/1217,News
+519,http://www.camera.it/leg18/1025,News
+520,http://parlamento18.camera.it/13,News
+521,http://www.parlamento.it/1210?legislatura_numero=18,News
+522,http://www.parlamento.it/798,News
+523,http://www.parlamento.it/806,News
+524,http://www.quirinale.it/,News
+525,http://www.cortecostituzionale.it/default.do,News
+526,http://creativecommons.org/licenses/by/3.0/it/legalcode,News
+527,http://www.tripod.lycos.com/,Technology
+528,http://ly.lygo.com/ly/tpSite/images/57x57.png,Technology
+529,http://ly.lygo.com/ly/tpSite/images/72x72.png,Technology
+530,http://ly.lygo.com/ly/tpSite/images/114x114.png,Technology
+531,http://ly.lygo.com/ly/tpSite/images/favicon.ico,Technology
+532,http://ly.lygo.com/ly/tpSite/css/tpStyle.css,Technology
+533,http://ly.lygo.com/ly/tpSite/css/fancy.css,Technology
+534,http://www.tripod.lycos.com/pricing/,Technology
+535,http://registration.lycos.com/forgot.php?m_PR=26,Technology
+536,http://www.tripod.lycos.com/help/password.tmpl,Technology
+537,http://www.tripod.lycos.com/features/,Technology
+538,http://helpdesk.lycos.com/,Technology
+539,http://www.tripod.lycos.com/sotm/index.tmpl,Technology
+540,http://www.tripod.lycos.com/help/,Technology
+541,http://www.tripod.lycos.com/about.tmpl,Technology
+542,http://www.helpmehelpu.org/,Technology
+543,http://spotlight-site.tripod.com/,Technology
+544,http://www.lycos.com/,Technology
+545,http://info.lycos.com/resources/terms-of-service/subscription-agreement,Technology
+546,http://info.lycos.com/resources/terms-of-service,Technology
+547,http://info.lycos.com/resources/privacy-policy,Technology
+548,http://promo-manager.server-secure.com/ch/9078/y9yh45/368274/3b31d14sjw.html,Technology
+549,http://vimeo.com/tripod,Technology
+550,http://www.spettacolovivo.it/,Arts & Entertainment
+551,http://www.spettacolovivo.it/media/plg_social2s/css/behavior/s2sdefault.css,Arts & Entertainment
+552,http://www.spettacolovivo.it/media/plg_social2s/css/styles/default.css,Arts & Entertainment
+553,http://www.spettacolovivo.it/media/plg_social2s/css/s2sfont.min.css,Arts & Entertainment
+554,http://www.twitter.com/rockettheme,Arts & Entertainment
+555,http://www.orchestrabagutti.it/,Arts & Entertainment
+556,http://www.magicqueen.it/,Arts & Entertainment
+557,http://www.colpadalfredo.it/,Arts & Entertainment
+558,http://www.treegees.com/,Arts & Entertainment
+559,http://www.acidic.it/Ac_Dc_Tribute_Band.html,Arts & Entertainment
+560,http://www.pitecoclub.com/,Arts & Entertainment
+561,http://www.lucabergamini.it/,Arts & Entertainment
+562,http://www.orchestramircogramellini.it/,Arts & Entertainment
+563,http://www.comune.russi.ra.it/,Arts & Entertainment
+564,http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--fonts/awesome/3.2.1/font-awesome.min.css,Technology
+565,http://www.wikidot.com/legal:terms-of-service,Technology
+566,http://www.wikidot.com/legal:privacy-policy,Technology
+567,http://www.open.ac.uk/,Education
+568,http://www.open.ac.uk/republic-of-ireland/,Education
+569,http://www.open.ac.uk/northern-ireland/,Education
+570,http://www.open.ac.uk/scotland/,Education
+571,http://www.open.ac.uk/wales/en/,Education
+572,http://www.open.ac.uk/wales/cy/,Education
+573,http://www.open.ac.uk/wales/cy,Education
+574,http://intranet.open.ac.uk/oulife-home/,Education
+575,http://www.open.ac.uk/contact,Education
+576,http://www.open.ac.uk/contact/,Education
+577,http://www2.open.ac.uk/students/help/your-contacts/,Education
+578,http://www2.open.ac.uk/tutors/help/who-to-contact/,Education
+579,http://www.open.ac.uk/about/main/strategy-and-policies/policies-and-statements/website-accessibility-open-university,Education
+580,http://www.open.ac.uk/about/main/strategy-and-policies/policies-and-statements/website-accessibility-open-university/,Education
+581,http://www.open.ac.uk/courses/,Education
+582,http://www.open.ac.uk/postgraduate/,Education
+583,http://www.open.ac.uk/research/,Education
+584,http://www.open.ac.uk/about/main/,Education
+585,http://ounews.co/,Education
+586,http://www.open.ac.uk/business/,Education
+587,http://www.open.ac.uk/courses/coronavirus,Education
+588,http://test.hawksearch.net/sites/openuniversity/includes/hawksearch.css,Education
+589,http://www.open.ac.uk/courses/careers,Education
+590,http://www.open.ac.uk/courses/what-is-distance-learning,Education
+591,http://www.open.ac.uk/courses/fees-and-funding,Education
+592,http://www.open.edu/openlearn/,Education
+593,http://www.open.ac.uk/research/news/ou-ranked-fifth-research-student-satisfaction,Education
+594,http://www.open.ac.uk/equality-diversity/,Education
+595,http://www.open.ac.uk/about/employment/,Education
+596,http://www.open.ac.uk/about/main/strategy-and-policies/policies-and-statements/conditions-use-open-university-websites,Education
+597,http://www.open.ac.uk/about/main/strategy-and-policies/policies-and-statements/website-privacy-ou,Education
+598,http://www.open.ac.uk/about/main/sites/www.open.ac.uk.about.main/files/files/modern-slavery-act-statement.pdf,Education
+599,http://www.open.ac.uk/about/main/strategy-and-policies/policies-and-statements/copyright-ou-websites,Education
+600,http://www.open.edu/openlearn/whats-on/ou-on-the-bbc-week,Education
+601,http://www.open.ac.uk/ousa/,Education
+602,http://learn1.open.ac.uk/course/view.php?id=100061,Education
+603,http://learn1.open.ac.uk/course/view.php?id=100001,Education
+604,http://learn1.open.ac.uk/admin/tool/redirector/redirect.php/chd,Education
+605,http://www.open.ac.uk/library/help-and-support,Education
+606,http://www2.open.ac.uk/students/careers/,Education
+607,http://www2.open.ac.uk/students/help,Education
+608,http://www.open.ac.uk/library/,Education
+609,http://www.treccani.it/,Arts & Entertainment
+610,http://www.treccani.it/magazine/lingua_italiana/articoli/scritto_e_parlato/Museo-della-lingua-italiana.html,Arts & Entertainment
+611,http://www.treccani.it/enciclopedia/mostra-internazionale-d-arte-cinematografica-di-venezia,Arts & Entertainment
+612,http://www.treccani.it/enciclopedia/livio-berruti_%28Enciclopedia-dello-Sport%29/,Arts & Entertainment
+613,http://www.reading.ac.uk/dataset/profile/reading.ttl,Education
+614,http://www.reading.ac.uk/A-Z/az-academic.aspx,Education
+615,http://www.henley.ac.uk/,Education
+616,http://www.reading.edu.my/,Education
+617,http://applicant.reading.ac.uk/,Education
+618,http://www.reading.ac.uk/Ready-to-Study/study/current-students-home.aspx,Education
+619,http://www.reading.ac.uk/staff,Education
+620,http://www.reading.ac.uk/alumni,Education
+621,http://www.reading.ac.uk/15/Study/study-prospectus.aspx,Education
+622,http://www.reading.ac.uk/opendays,Education
+623,http://www.reading.ac.uk/ready-to-study/visiting-and-open-days/opendays.aspx,Education
+624,http://www.reading.ac.uk/about/global/,Education
+625,http://www.italia.it/,Arts & Entertainment
+626,http://visitaly.com.cn/,Arts & Entertainment
+627,http://www.esteri.it/,Arts & Entertainment
+628,http://www.assoturismo.it/,Arts & Entertainment
+629,http://www.confturismo.it/,Arts & Entertainment
+630,http://www.federturismo.it/,Arts & Entertainment
+631,http://twitter.com/italia,Arts & Entertainment
+632,http://www.youtube.com/user/JoinItaly,Arts & Entertainment
+633,http://instagram.com/italiait,Arts & Entertainment
+634,http://www.humanities.ox.ac.uk/,Education
+635,http://www.rai.ox.ac.uk/,Education
+636,http://www.english.ox.ac.uk/,Education
+637,http://www.ling-phil.ox.ac.uk/,Education
+638,http://www.orinst.ox.ac.uk/,Education
+639,http://torch.ox.ac.uk/,Education
+640,http://www.classics.ox.ac.uk/,Education
+641,http://www.history.ox.ac.uk/,Education
+642,http://www.mod-langs.ox.ac.uk/,Education
+643,http://www.philosophy.ox.ac.uk/,Education
+644,http://www.voltaire.ox.ac.uk/,Education
+645,http://www.rsa.ox.ac.uk/,Education
+646,http://www.hoa.ox.ac.uk/,Education
+647,http://www.music.ox.ac.uk/,Education
+648,http://www.theology.ox.ac.uk/,Education
+649,http://www.mpls.ox.ac.uk/,Education
+650,http://www.begbroke.ox.ac.uk/,Education
+651,http://www.oerc.ox.ac.uk/,Education
+652,http://www.lsidtc.ox.ac.uk/,Education
+653,http://www.physics.ox.ac.uk/,Education
+654,http://www.zoo.ox.ac.uk/,Education
+655,http://www.chem.ox.ac.uk/,Education
+656,http://www.earth.ox.ac.uk/,Education
+657,http://www.materials.ox.ac.uk/,Education
+658,http://www.plants.ox.ac.uk/,Education
+659,http://www.cs.ox.ac.uk/,Education
+660,http://www.eng.ox.ac.uk/,Education
+661,http://www.maths.ox.ac.uk/,Education
+662,http://www.stats.ox.ac.uk/,Education
+663,http://www.medsci.ox.ac.uk/,Education
+664,http://www.bioch.ox.ac.uk/,Education
+665,http://www.psy.ox.ac.uk/,Education
+666,http://www.ndorms.ox.ac.uk/,Education
+667,http://www.pharm.ox.ac.uk/,Education
+668,http://www.wrh.ox.ac.uk/,Education
+669,http://www.ndm.ox.ac.uk/,Education
+670,http://www.rdm.ox.ac.uk/,Education
+671,http://www.paediatrics.ox.ac.uk/,Education
+672,http://www.dpag.ox.ac.uk/,Education
+673,http://www.psychiatry.ox.ac.uk/,Education
+674,http://www.ndcn.ox.ac.uk/,Education
+675,http://www.oncology.ox.ac.uk/,Education
+676,http://www.path.ox.ac.uk/,Education
+677,http://www.ndph.ox.ac.uk/,Education
+678,http://www.nds.ox.ac.uk/,Education
+679,http://www.socsci.ox.ac.uk/,Education
+680,http://www.anthro.ox.ac.uk/,Education
+681,http://www.economics.ox.ac.uk/,Education
+682,http://www.area-studies.ox.ac.uk/,Education
+683,http://www.oii.ox.ac.uk/,Education
+684,http://www.politics.ox.ac.uk/,Education
+685,http://www.arch.ox.ac.uk/,Education
+686,http://www.education.ox.ac.uk/,Education
+687,http://www.bsg.ox.ac.uk/,Education
+688,http://www.law.ox.ac.uk/,Education
+689,http://www.spi.ox.ac.uk/,Education
+690,http://www.sbs.ox.ac.uk/,Education
+691,http://www.geog.ox.ac.uk/,Education
+692,http://www.oxfordmartin.ox.ac.uk/,Education
+693,http://www.sociology.ox.ac.uk/,Education
+694,http://www.glam.ox.ac.uk/home,Education
+695,http://www.ashmolean.org/,Education
+696,http://www.oum.ox.ac.uk/,Education
+697,http://www.botanic-garden.ox.ac.uk/,Education
+698,http://www.prm.ox.ac.uk/,Education
+699,http://www.balliol.ox.ac.uk/,Education
+700,http://www.bfriars.ox.ac.uk/,Education
+701,http://www.bnc.ox.ac.uk/,Education
+702,http://www.campion.ox.ac.uk/,Education
+703,http://www.chch.ox.ac.uk/,Education
+704,http://www.ccc.ox.ac.uk/,Education
+705,http://www.exeter.ox.ac.uk/,Education
+706,http://www.gtc.ox.ac.uk/,Education
+707,http://www.hmc.ox.ac.uk/,Education
+708,http://www.hertford.ox.ac.uk/,Education
+709,http://www.jesus.ox.ac.uk/,Education
+710,http://www.keble.ox.ac.uk/,Education
+711,http://www.kellogg.ox.ac.uk/,Education
+712,http://www.lmh.ox.ac.uk/,Education
+713,http://www.linacre.ox.ac.uk/,Education
+714,http://www.lincoln.ox.ac.uk/,Education
+715,http://www.magd.ox.ac.uk/,Education
+716,http://www.mansfield.ox.ac.uk/,Education
+717,http://www.merton.ox.ac.uk/,Education
+718,http://www.new.ox.ac.uk/,Education
+719,http://www.nuffield.ox.ac.uk/,Education
+720,http://www.oriel.ox.ac.uk/,Education
+721,http://www.pmb.ox.ac.uk/,Education
+722,http://www.queens.ox.ac.uk/,Education
+723,http://www.st-annes.ox.ac.uk/,Education
+724,http://www.sant.ox.ac.uk/,Education
+725,http://www.st-benets.ox.ac.uk/,Education
+726,http://www.stcatz.ox.ac.uk/,Education
+727,http://www.stx.ox.ac.uk/,Education
+728,http://www.seh.ox.ac.uk/,Education
+729,http://www.sthildas.ox.ac.uk/,Education
+730,http://www.st-hughs.ox.ac.uk/,Education
+731,http://www.sjc.ox.ac.uk/,Education
+732,http://www.spc.ox.ac.uk/,Education
+733,http://www.ssho.ox.ac.uk/,Education
+734,http://www.some.ox.ac.uk/,Education
+735,http://www.trinity.ox.ac.uk/,Education
+736,http://www.univ.ox.ac.uk/,Education
+737,http://www.wadham.ox.ac.uk/,Education
+738,http://www.wolfson.ox.ac.uk/,Education
+739,http://www.worc.ox.ac.uk/,Education
+740,http://www.wycliffe.ox.ac.uk/,Education
+741,http://bit.ly/2ULV1ao,Education
+742,http://bit.ly/2NQy1T6,Education
+743,http://bit.ly/314Uqlf,Education
+744,http://bit.ly/2U8D6Kp,Education
+745,http://bit.ly/3aSpzN6,Education
+746,http://bit.ly/36GAqpY,Education
+747,http://www.youtube.com/oxford,Education
+748,http://e.weibo.com/OxfordUni,Education
+749,http://instagram.com/oxford_uni,Education
+750,http://theconversation.com/institutions/university-of-oxford-1260,Education
+751,http://www.sport.ox.ac.uk/,Education
+752,http://www.conference-oxford.com/index.php,Education
+753,http://www.oxforduniversityimages.com/,Education
+754,http://www.tusciaweb.eu/,News
+755,http://www.tusciaweb.eu/wp-content/cache/minify/000000/fY5BDkIhDEQvZIPexQv0Q4M1FbAtEm4vqGt3k7yZzDuHKGjGEbxbZBx0BPMpdLqEF6lzRAGLWkVAKVJxaNX8H1vLSQ5Yqt9IFxF0Sh9k0KRnLt-LMDhl2v3RABM8sGAmDTtyYXPSzYx_9fuzk85rrWKhLgHBCQcu9zc.css,News
+756,http://www.tusciaweb.eu/wp-content/cache/minify/000000/M9RPyi9JSS1JTS7RLS_QTU4sKEnOSNTPyUxCSOgXlCblZCbr5ySlxOckVuaXlgAA.css,News
+757,http://www.tusciaweb.eu/wp-content/cache/minify/000000/nY1REsIgDEQvZMh09D4M0rTFAYIknba3Fyt6AH8y-3aT7ICZdp0pw-xipHpgqTyuXgXLwsq-Og2272BqUSTBGOZF77yjaIs9Ti77482P59p-mC_DYK7mZlLIl-Gvos6239gxSInu-PVyVreRcKJTQ4feuBWg5ELEc4IX-ZjKoFtQpYrNw65hIhpf.css,News
+758,http://www.tusciaweb.eu/wp-content/cache/minify/000000/M9QvTiwurtQtzk_OTMzRLc5ILErVLyhNyslM1k8uLsYiqwuRBQA.css,News
+759,http://www.tusciaweb.eu/wp-content/cache/minify/000000/bYxRCoAwDMUuZKk7UtcVLW4O9qaip1fET38TksAQ4CRUdcmEWZqxpOIrK_AjCfs0BH5RzEbXGXOdyJJ3r1_0uWFkzc_AlfqGhx0WuZi1RfoN.css,News
+760,http://www.tusciaweb.eu/xmlrpc.php,News
+761,http://www.tusciaweb.eu/page/2/,News
+762,http://www.tusciaweb.eu/feed/,News
+763,http://www.tusciaweb.eu/comments/feed/,News
+764,http://www.tusciaweb.eu/xmlrpc.php?rsd,News
+765,http://www.tusciaweb.eu/wp-includes/wlwmanifest.xml,News
+766,http://www.tusciaweb.eu/wp-content/plugins/stream-video-player/responsive.css?ver=,News
+767,http://www.tusciaweb.eu/category/cronaca/,News
+768,http://www.tusciaweb.eu/category/politica/,News
+769,http://www.tusciaweb.eu/category/economia/,News
+770,http://www.tusciaweb.eu/category/agricoltura/,News
+771,http://www.tusciaweb.eu/category/salute/,News
+772,http://www.tusciaweb.eu/category/cultura/,News
+773,http://www.tusciaweb.eu/category/spettacolo/,News
+774,http://www.tusciaweb.eu/category/sport/,News
+775,http://www.tusciaweb.eu/category/opinione/,News
+776,http://www.tusciaweb.eu/category/tusciawebTV/,News
+777,http://www.tusciaweb.eu/archivio-gallery/,News
+778,http://www.tusciaweb.eu/archivio/,News
+779,http://www.tusciaweb.eu/chi-siamo/,News
+780,http://www.tusciaweb.eu/category/viterbo/,News
+781,http://www.tusciaweb.eu/category/provincia/,News
+782,http://www.tusciaweb.eu/category/lazio/,News
+783,http://www.tusciaweb.eu/category/italia-mondo/,News
+784,http://www.youtube.com/user/Tusciaweb,News
+785,http://www.tusciaweb.it/index2.html,News
+786,http://www.tusciaweb.eu/2020/08/boccasile-il-maestro-erotismo-fascista/,News
+787,http://www.tusciaweb.eu/archivio-gallery/santa-rosa-videomapping/,News
+788,http://www.acusticadigitalfon.it/,News
+789,http://www.carrozzeriafiorillo.it/,News
+790,http://www.camperteam.it/,News
+791,http://www.tusciaweb.eu/archivio-gallery/boccasile-e-lerotismo-fascista/,News
+792,http://www.tusciaweb.eu/2020/09/boccasile-un-vero-e-proprio-demiurgo-inventore-delle-gambe/,News
+793,http://www.tusciaweb.eu/2020/08/boccasile-grande-artista-disegnato-le-piu-belle-pubblicita-della-meta-del-novecento/,News
+794,http://www.tusciaweb.eu/wp-content/uploads/2020/05/CVD-Maggio-Locandina-2020.jpg,News
+795,http://www.tusciaweb.eu/pubblicita/sigma/Volantino-SIGMA-3-9-20.pdf,News
+796,http://www.sbcviterbo.it/,News
+797,http://www.facebook.com/pages/Tusciaweb/179976002026783,News
+798,http://www.tusciaweb.eu/2020/09/viale-armando-diaz-tre-giorni-dalla-chiamata-viterbo-ambiente-gli-aghi-pino-ancora-li/,News
+799,http://www.tusciaweb.eu/2020/09/tutti-dun-sentimento-la-sera-del-trasporto-alle-21-intoniamo-dai-balconi-linno-dei-facchini/,News
+800,http://www.tusciaweb.eu/arena-accende-i-fasci-di-luce/,News
+801,http://www.cnaviterbocivitavecchia.it/,News
+802,http://www.confartigianato.vt.it/cvt/,News
+803,http://www.nextartivisive.it/,News
+804,http://www.sbcviterbo.it/esevctp,News
+805,http://www.bergamonews.it/,News
+806,http://www.corriere.it/,News
+807,http://www.repubblica.it/,News
+808,http://www3.varesenews.it/,News
+809,http://www.tusciaweb.eu/2020/09/chiuso-progetto-restate-gioco/,News
+810,http://www.tusciaweb.eu/2020/09/ferento-aperto-per-il-weekend-di-santa-rosa/,News
+811,http://www.tusciaweb.eu/2020/09/respingimenti-illeggittimi-riconosciuto-il-diritto-di-chiedere-asilo/,News
+812,http://www.tusciaweb.eu/2020/09/bici-cuneo-napoli-passando-viterbo/,News
+813,http://www.tusciaweb.eu/2020/09/visite-guidate-a-palazzo-brugiotti-e-alla-quadreria-della-fondazione-carivit-3/,News
+814,http://www.tusciaweb.eu/2020/09/suor-maria-benedetta-frey-la-venerabile-scrisse-della-macchina-santa-rosa/,News
+815,http://www.tusciaweb.eu/2020/09/le-illustrazioni-del-libro-don-grandori-santa-rosa-mostra-santa-maria-nuova/,News
+816,http://www.tusciaweb.eu/2020/09/tecnici-sanitari-radiologia-donano-450-mascherine-al-ceis/,News
+817,http://www.tusciaweb.eu/2020/09/veronica-pivetti-apre-lestate-viterbese-del-teatro-caffeina/,News
+818,http://www.tusciaweb.eu/2020/09/cna-ripartono-corsi-conduzione-carrelli-elevatori/,News
+819,http://www.tusciaweb.eu/2020/09/nuovo-corso-di-laurea-triennale-in-scienze-naturali-e-ambientali/,News
+820,http://www.tusciaweb.eu/2020/09/test-dingresso-a-ingegneria-industriale/,News
+821,http://www.tusciaweb.eu/2020/09/nessun-problema-irrigazione-nel-consorzio-bonifica-litorale-nord/,News
+822,http://www.tusciaweb.eu/2020/09/tutelate-territorio-rispettando-la-cultura-politica-antifascista-democratica/,News
+823,http://www.tusciaweb.eu/2020/09/poste-riapertura-pomeridiana-gli-uffici-soriano-montefiascone/,News
+824,http://www.tusciaweb.eu/2020/09/edilizia-scolastica-cultura-al-centro-del-programma-elettorale/,News
+825,http://www.tusciaweb.eu/2020/09/scuola-finanziato-il-progetto-di-sensibilizzazione-contro-le-droghe/,News
+826,http://www.tusciaweb.eu/2020/09/ottima-lidea-collegare-la-nuova-sede-asl-vettura-elettrica/,News
+827,http://www.tusciaweb.eu/2020/09/troppi-incendi-dolosi-non-sottovalutiamo-rischio-legami-la-mafia/,News
+828,http://www.tusciaweb.eu/2020/09/ieri-6-nuovi-casi-ciampino-fiumicino-individuati-coi-test-rapidi/,News
+829,http://www.tusciaweb.eu/2020/09/mancata-fornitura-dpi-alla-regione-leodori-venga-riferire/,News
+830,http://www.tusciaweb.eu/2020/09/piano-del-parco-liter-arrivato-regione/,News
+831,http://www.tusciaweb.eu/2020/09/ieri-2-positivi-fiumicino-ciampino-rientravano-dalla-spagna/,News
+832,http://www.tusciaweb.eu/2020/09/la-salute-pubblica-un-presidio-domani-montecitorio/,News
+833,http://www.tusciaweb.eu/2020/09/inaccettabile-la-sanita-privata-non-firmi-contratto/,News
+834,http://www.tusciaweb.eu/category/civitavecchia/,News
+835,http://www.tusciaweb.eu/2020/08/ladsp-riacquista-la-disponibilita-7-milioni-crediti/,News
+836,http://www.tusciaweb.eu/2020/08/coronavirus-pronti-a-fare-test-anche-verso-sardegna/,News
+837,http://www.tusciaweb.eu/2020/08/lavori-al-ced-domani-dalle-11-sospesi-tutti-servizi-comunali-line/,News
+838,http://www.tusciaweb.eu/2020/08/pronti-partire-domani-piccoli-ospiti-dei-nido/,News
+839,http://www.tusciaweb.eu/2020/08/assembramento-ragazzi-dipendenti-senza-mascherina-bar-multato-chiuso-5-giorni/,News
+840,http://www.tusciaweb.eu/2020/09/pulizie-straordinarie-corso-marconi/,News
+841,http://www.tusciaweb.eu/2020/09/sostegno-famiglie-miniri-nello-spettro-autistic/,News
+842,http://www.tusciaweb.eu/2020/09/statua-giovanni-paolo-ii-comune-ci-indichi-piazzarla/,News
+843,http://www.tusciaweb.eu/2020/08/detenuto-tenta-di-soffocare-poliziotto-prima-di-entrare-nella-doccia/,News
+844,http://www.tusciaweb.eu/2020/09/stalli-taxi-al-porto-sopralluogo-comandante-tomas/,News
+845,http://www.tusciaweb.eu/2020/08/soddisfazione-servizio-bus-dal-porto-arriva-alla-stazione/,News
+846,http://www.tusciaweb.eu/2020/08/al-lavoro-per-rendere-laria-del-porto-piu-pulita/,News
+847,http://www.tusciaweb.eu/2020/08/coronavirus-test-drive-attivi-al-porto-civitavecchia/,News
+848,http://www.tusciaweb.eu/2020/09/uve-ottima-qualita-aspettative-interessanti-la-vendemmia-2020/,News
+849,http://www.tusciaweb.eu/2020/09/lobbligo-mascherine-chirurgiche-nelle-scuole-aumenta-linquinamento/,News
+850,http://www.tusciaweb.eu/2020/09/allarme-chimico-trentino-la-protezione-civile-restate-casa/,News
+851,http://www.tusciaweb.eu/2020/09/sette-posti-letto-santa-barbara-stanno-mezzo-alla-strada/,News
+852,http://www.tusciaweb.eu/2020/09/statua-bronzo-un-gorilla-sensibilizzare-sul-rischio-destinzione/,News
+853,http://www.tusciaweb.eu/2020/09/le-aperture-alla-caccia-zingaretti-mettono-rischio-lupi-orsi-marsicani/,News
+854,http://www.tusciaweb.eu/2020/09/ghiacciaio-della-marmolada-lallarme-degli-esperti-15-anni-vita/,News
+855,http://www.tusciaweb.eu/2020/09/video-tromba-daria/,News
+856,http://www.tusciaweb.eu/2020/08/casa-strada-rinaldone/,News
+857,http://www.tusciaweb.eu/2020/08/maltempo-milano-quasi-200-interventi-dei-vigili-del-fuoco-nella-notte/,News
+858,http://www.tusciaweb.eu/2020/08/si-aggrava-bilancio-delluragano-laura-14-morti/,News
+859,http://www.tusciaweb.eu/2020/09/auguro-alla-viterbese-disputare-un-campionato-al-vertice-pieno-soddisfazioni/,News
+860,http://www.tusciaweb.eu/2020/09/wiplanet-lunder-12-continua-la-striscia-positiva/,News
+861,http://www.tusciaweb.eu/2020/09/volley-club-nepi-pronto-a-ripartire/,News
+862,http://www.tusciaweb.eu/2020/09/basket-3-3-parte-torneo-let-the-game-begin/,News
+863,http://www.tusciaweb.eu/2020/09/trofeo-scrambler-maxienduro-parte-graffignano/,News
+864,http://www.tusciaweb.eu/2020/09/gianni-menicucci-nuovo-presidente-dello-sporting-viterbo/,News
+865,http://www.tusciaweb.eu/2020/09/wiplanet-buon-pari-a-grosseto/,News
+866,http://www.tusciaweb.eu/2020/08/tennis-club-viterbo-inizia-col-piede-giusto-6-0-alleur-sporting-club/,News
+867,http://www.tusciaweb.eu/2020/08/superbike-althea-si-ritira-dal-campionato-mondiale/,News
+868,http://www.tusciaweb.eu/2020/08/laurora-querciaiola-si-prepara-al-campionato-seconda-categoria/,News
+869,http://www.tusciaweb.eu/2020/08/wiplanet-in-trasferta-a-grosseto-per-una-conferma/,News
+870,http://www.tusciaweb.eu/2020/08/la-jvc-si-rafforza-nel-campionato-di-prima-divisione-femminile/,News
+871,http://www.tusciaweb.eu/2020/08/perplessita-sui-gironi-la-viterbese-scrive-al-presidente-della-lega-pro/,News
+872,http://www.tusciaweb.eu/2020/08/17-atleti-del-tuscia-skating-a-riccione-per-i-campionati-italiani/,News
+873,http://www.tusciaweb.eu/category/flash/,News
+874,http://www.tusciaweb.eu/2020/08/festival-filoteo-alberini-premiato-distanza-marco-bellocchio/,News
+875,http://www.tusciaweb.eu/2020/09/stavamo-meglio-stavamo-peggio-stefano-masciarelli-fabrizio-coniglio-piazza-san-lorenzo/,News
+876,http://www.tusciaweb.eu/2020/09/la-natura-e-unavventura-meravigliosa-torna-clorophilla/,News
+877,http://www.tusciaweb.eu/2020/09/carlo-luglio-chiude-cinema-sotto-le-stelle/,News
+878,http://www.tusciaweb.eu/2020/09/carlo-maria-parazzoli/,News
+879,http://www.tusciaweb.eu/2020/09/torna-e-state-a-santa-rosa/,News
+880,http://www.tusciaweb.eu/2020/09/grande-successo-la-kermesse-dedicata-fabrizio-de-andre/,News
+881,http://www.tusciaweb.eu/2020/09/teatrinsieme-scena-lultimo-spettacolo-le-voci-della-torre/,News
+882,http://www.tusciaweb.eu/2020/09/tutto-pronto-per-la-presentazione-del-romanzo-attenti-alla-voltata/,News
+883,http://www.tusciaweb.eu/2020/09/paesaggi-dellarte-prossimo-appuntamento-alla-tomba-degli-anina/,News
+884,http://www.tusciaweb.eu/informativa-gdpr/,News
+885,http://tamilyogi.cool/,Arts & Entertainment
+886,http://tamilyogi.cool/wp-content/themes/tamilyogi/style.css,Arts & Entertainment
+887,http://tamilyogi.cool/xmlrpc.php,Arts & Entertainment
+888,http://tamilyogi.cool/feed/,Arts & Entertainment
+889,http://tamilyogi.cool/comments/feed/,Arts & Entertainment
+890,http://tamilyogi.cool/wp-json/,Arts & Entertainment
+891,http://tamilyogi.cool/wp-json/wp/v2/pages/28088,Arts & Entertainment
+892,http://tamilyogi.cool/xmlrpc.php?rsd,Arts & Entertainment
+893,http://tamilyogi.cool/wp-includes/wlwmanifest.xml,Arts & Entertainment
+894,http://tamilyogi.cool/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ftamilyogi.cool%2F,Arts & Entertainment
+895,http://tamilyogi.cool/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/vertical-m.css?version=3.6.4,Arts & Entertainment
+896,http://tamilyogi.cool/category/tamil-web-series/,Arts & Entertainment
+897,http://www.ufl.edu/,Education
+898,http://publicrecords.ufl.edu/,Education
+899,http://www.ufl.edu/about/service-outreach/,Education
+900,http://pd.dce.ufl.edu/program-finder,Education
+901,http://www.admissions.ufl.edu/prospectiveinternational.html,Education
+902,http://www.ufl.edu/academics/online-learning/,Education
+903,http://www.sfa.ufl.edu/,Education
+904,http://research.ufl.edu/,Education
+905,http://research.ufl.edu/faculty-and-staff/finding-funding.html,Education
+906,http://floridagators.com/calendar.aspx,Education
+907,http://floridagators.com/sports/2015/12/10/_tickets_.aspx,Education
+908,http://floridagators.com/facilities/,Education
+909,http://connect.ufalumni.ufl.edu/network/gatorclubs,Education
+910,http://connect.ufalumni.ufl.edu/membership/join-the-ufaa,Education
+911,http://connect.ufalumni.ufl.edu/events/signature-events,Education
+912,http://virtualtour.ufl.edu/,Education
+913,http://calendar.ufl.edu/,Education
+914,http://uff.ufl.edu/Giving/WhyGive.asp,Education
+915,http://assistive.usablenet.com/tt/referrer,Education
+916,http://admissions.ufl.edu/,Education
+917,http://questions.ufl.edu/,Education
+918,http://www.facebook.com/uflorida/,Education
+919,http://www.youtube.com/user/universityofflorida/,Education
+920,http://ufweather.org/,Education
+921,http://campusmap.ufl.edu/,Education
+922,http://accessibility.ufl.edu/,Education
+923,http://regulations.ufl.edu/,Education
+924,http://twitter.com/pinboard,Technology
+925,http://www.tusciaweb.eu/2020/08/bene-tamponi-sbarca-dalle-navi-tutela-cittadini-gli-operatori-portuali/,News
+926,http://www.tusciaweb.eu/2020/08/controlli-sanitari-al-porto-ci-organizzati-nel-giro-48-ore/,News
+927,http://www.tusciaweb.eu/2020/05/corsi-per-la-salute-e-la-sicurezza-dei-neoassunti/,News
+928,http://www.tusciaweb.eu/2020/06/nasce-federlazio-business-center/,News
+929,http://www.tusciaweb.eu/2020/07/conduzione-macchine-movimento-terra-al-via-corso-cna/,News
+930,http://www.tusciaweb.eu/2020/05/luso-efficace-dei-social-media-per-rilanciare-le-imprese-dopo-lemergenza-coronavirus/,News
+931,http://www.tusciaweb.eu/2020/05/reddito-di-emergenza-le-domande-possono-essere-inoltrate-allinps/,News
+932,http://www.tusciaweb.eu/2020/06/uffici-pubblici-riaprirli-immediatamente-tempo-pieno/,News
+933,http://www.tusciaweb.eu/2020/06/veicoli-pesanti-possono-viaggiare-anche-domenica/,News
+934,http://www.tusciaweb.eu/2020/06/autobus-servono-risposte-adeguate-a-una-crisi-senza-precedenti/,News
+935,http://www.tusciaweb.eu/2020/06/puntare-su-credito-liquidita-e-innovazione/,News
+936,http://www.tusciaweb.eu/2020/07/protocollo-assoturismo-abi-su-utilizzo-del-bonus-vacanze/,News
+937,http://www.tusciaweb.eu/2020/07/un-settore-che-da-lavoro-a-oltre-300mila-imprenditori-e-12-milioni-di-lavoratori/,News
+938,http://www.tusciaweb.eu/2020/05/bandi-europei-von-der-leyen-vaga-sul-rinvio-delle-scadenze/,News
+939,http://www.tusciaweb.eu/2020/05/le-ultime-due-domeniche-maggio-2-giugno-tir-possono-circolare/,News
+940,http://www.tusciaweb.eu/2020/07/siccita-disastri-naturali-piu-prevenzione/,News
+941,http://blog.imageshack.com/,Arts & Entertainment
+942,http://api.imageshack.us/,Arts & Entertainment
+943,http://community.apache.org/calendars/,Technology
+944,http://www.apache.org/foundation/reports.html,Technology
+945,http://community.apache.org/,Technology
+946,http://www.apache.org/theapacheway/index.html,Technology
+947,http://www.apache.org/theapacheway/,Technology
+948,http://community.zones.apache.org/map.html,Technology
+949,http://roller.apache.org/,Technology
+950,http://attic.apache.org/,Technology
+951,http://incubator.apache.org/,Technology
+952,http://labs.apache.org/,Technology
+953,http://httpd.apache.org/,Technology
+954,http://accumulo.apache.org/,Technology
+955,http://activemq.apache.org/,Technology
+956,http://airavata.apache.org/,Technology
+957,http://airflow.apache.org/,Technology
+958,http://allura.apache.org/,Technology
+959,http://ambari.apache.org/,Technology
+960,http://ant.apache.org/,Technology
+961,http://any23.apache.org/,Technology
+962,http://archiva.apache.org/,Technology
+963,http://aries.apache.org/,Technology
+964,http://arrow.apache.org/,Technology
+965,http://asterixdb.apache.org/,Technology
+966,http://atlas.apache.org/,Technology
+967,http://avro.apache.org/,Technology
+968,http://axis.apache.org/,Technology
+969,http://bahir.apache.org/,Technology
+970,http://beam.apache.org/,Technology
+971,http://bigtop.apache.org/,Technology
+972,http://bloodhound.apache.org/,Technology
+973,http://bookkeeper.apache.org/,Technology
+974,http://brooklyn.apache.org/,Technology
+975,http://buildr.apache.org/,Technology
+976,http://bval.apache.org/,Technology
+977,http://calcite.apache.org/,Technology
+978,http://camel.apache.org/,Technology
+979,http://carbondata.apache.org/,Technology
+980,http://cassandra.apache.org/,Technology
+981,http://cayenne.apache.org/,Technology
+982,http://celix.apache.org/,Technology
+983,http://chemistry.apache.org/,Technology
+984,http://clerezza.apache.org/,Technology
+985,http://cloudstack.apache.org/,Technology
+986,http://cocoon.apache.org/,Technology
+987,http://commons.apache.org/,Technology
+988,http://cordova.apache.org/,Technology
+989,http://couchdb.apache.org/,Technology
+990,http://creadur.apache.org/,Technology
+991,http://ctakes.apache.org/,Technology
+992,http://curator.apache.org/,Technology
+993,http://cxf.apache.org/,Technology
+994,http://datafu.apache.org/,Technology
+995,http://db.apache.org/,Technology
+996,http://deltaspike.apache.org/,Technology
+997,http://directory.apache.org/,Technology
+998,http://drill.apache.org/,Technology
+999,http://dubbo.apache.org/,Technology
+1000,http://eagle.apache.org/,Technology
+1001,http://empire-db.apache.org/,Technology
+1002,http://felix.apache.org/,Technology
+1003,http://fineract.apache.org/,Technology
+1004,http://flex.apache.org/,Technology
+1005,http://flink.apache.org/,Technology
+1006,http://flume.apache.org/,Technology
+1007,http://fluo.apache.org/,Technology
+1008,http://freemarker.apache.org/,Technology
+1009,http://geode.apache.org/,Technology
+1010,http://geronimo.apache.org/,Technology
+1011,http://giraph.apache.org/,Technology
+1012,http://gora.apache.org/,Technology
+1013,http://griffin.apache.org/,Technology
+1014,http://groovy.apache.org/,Technology
+1015,http://guacamole.apache.org/,Technology
+1016,http://gump.apache.org/,Technology
+1017,http://hadoop.apache.org/,Technology
+1018,http://hawq.apache.org/,Technology
+1019,http://hbase.apache.org/,Technology
+1020,http://helix.apache.org/,Technology
+1021,http://hive.apache.org/,Technology
+1022,http://hc.apache.org/,Technology
+1023,http://ignite.apache.org/,Technology
+1024,http://impala.apache.org/,Technology
+1025,http://isis.apache.org/,Technology
+1026,http://jackrabbit.apache.org/,Technology
+1027,http://james.apache.org/,Technology
+1028,http://jclouds.apache.org/,Technology
+1029,http://jena.apache.org/,Technology
+1030,http://jmeter.apache.org/,Technology
+1031,http://johnzon.apache.org/,Technology
+1032,http://joshua.apache.org/,Technology
+1033,http://jspwiki.apache.org/,Technology
+1034,http://juddi.apache.org/,Technology
+1035,http://juneau.apache.org/,Technology
+1036,http://kafka.apache.org/,Technology
+1037,http://karaf.apache.org/,Technology
+1038,http://kibble.apache.org/,Technology
+1039,http://knox.apache.org/,Technology
+1040,http://kudu.apache.org/,Technology
+1041,http://kylin.apache.org/,Technology
+1042,http://libcloud.apache.org/,Technology
+1043,http://logging.apache.org/,Technology
+1044,http://lucene.apache.org/,Technology
+1045,http://lucenenet.apache.org/,Technology
+1046,http://madlib.apache.org/,Technology
+1047,http://mahout.apache.org/,Technology
+1048,http://manifoldcf.apache.org/,Technology
+1049,http://marmotta.apache.org/,Technology
+1050,http://maven.apache.org/,Technology
+1051,http://mesos.apache.org/,Technology
+1052,http://metamodel.apache.org/,Technology
+1053,http://metron.apache.org/,Technology
+1054,http://mina.apache.org/,Technology
+1055,http://mnemonic.apache.org/,Technology
+1056,http://myfaces.apache.org/,Technology
+1057,http://mynewt.apache.org/,Technology
+1058,http://netbeans.apache.org/,Technology
+1059,http://nifi.apache.org/,Technology
+1060,http://nutch.apache.org/,Technology
+1061,http://ofbiz.apache.org/,Technology
+1062,http://olingo.apache.org/,Technology
+1063,http://oodt.apache.org/,Technology
+1064,http://oozie.apache.org/,Technology
+1065,http://climate.apache.org/,Technology
+1066,http://openjpa.apache.org/,Technology
+1067,http://openmeetings.apache.org/,Technology
+1068,http://opennlp.apache.org/,Technology
+1069,http://openoffice.apache.org/,Technology
+1070,http://openwebbeans.apache.org/,Technology
+1071,http://openwhisk.apache.org/,Technology
+1072,http://orc.apache.org/,Technology
+1073,http://parquet.apache.org/,Technology
+1074,http://pdfbox.apache.org/,Technology
+1075,http://perl.apache.org/,Technology
+1076,http://phoenix.apache.org/,Technology
+1077,http://pig.apache.org/,Technology
+1078,http://pivot.apache.org/,Technology
+1079,http://plc4x.apache.org/,Technology
+1080,http://poi.apache.org/,Technology
+1081,http://apr.apache.org/,Technology
+1082,http://portals.apache.org/,Technology
+1083,http://predictionio.apache.org/,Technology
+1084,http://pulsar.apache.org/,Technology
+1085,http://qpid.apache.org/,Technology
+1086,http://ranger.apache.org/,Technology
+1087,http://reef.apache.org/,Technology
+1088,http://river.apache.org/,Technology
+1089,http://rocketmq.apache.org/,Technology
+1090,http://royale.apache.org/,Technology
+1091,http://rya.apache.org/,Technology
+1092,http://samza.apache.org/,Technology
+1093,http://santuario.apache.org/,Technology
+1094,http://sentry.apache.org/,Technology
+1095,http://serf.apache.org/,Technology
+1096,http://servicecomb.apache.org/,Technology
+1097,http://servicemix.apache.org/,Technology
+1098,http://shiro.apache.org/,Technology
+1099,http://singa.apache.org/,Technology
+1100,http://sis.apache.org/,Technology
+1101,http://skywalking.apache.org/,Technology
+1102,http://sling.apache.org/,Technology
+1103,http://spamassassin.apache.org/,Technology
+1104,http://spark.apache.org/,Technology
+1105,http://sqoop.apache.org/,Technology
+1106,http://steve.apache.org/,Technology
+1107,http://storm.apache.org/,Technology
+1108,http://streams.apache.org/,Technology
+1109,http://struts.apache.org/,Technology
+1110,http://submarine.apache.org/,Technology
+1111,http://subversion.apache.org/,Technology
+1112,http://synapse.apache.org/,Technology
+1113,http://syncope.apache.org/,Technology
+1114,http://systemds.apache.org/,Technology
+1115,http://tajo.apache.org/,Technology
+1116,http://tapestry.apache.org/,Technology
+1117,http://tcl.apache.org/,Technology
+1118,http://tez.apache.org/,Technology
+1119,http://thrift.apache.org/,Technology
+1120,http://tika.apache.org/,Technology
+1121,http://tinkerpop.apache.org/,Technology
+1122,http://tomcat.apache.org/,Technology
+1123,http://tomee.apache.org/,Technology
+1124,http://trafficcontrol.apache.org/,Technology
+1125,http://trafficserver.apache.org/,Technology
+1126,http://trafodion.apache.org/,Technology
+1127,http://turbine.apache.org/,Technology
+1128,http://uima.apache.org/,Technology
+1129,http://unomi.apache.org/,Technology
+1130,http://usergrid.apache.org/,Technology
+1131,http://vcl.apache.org/,Technology
+1132,http://velocity.apache.org/,Technology
+1133,http://ws.apache.org/,Technology
+1134,http://whimsical.apache.org/,Technology
+1135,http://wicket.apache.org/,Technology
+1136,http://xalan.apache.org/,Technology
+1137,http://xerces.apache.org/,Technology
+1138,http://xmlgraphics.apache.org/,Technology
+1139,http://yetus.apache.org/,Technology
+1140,http://zeppelin.apache.org/,Technology
+1141,http://zookeeper.apache.org/,Technology
+1142,http://community.apache.org/gsoc.html,Technology
+1143,http://community.apache.org/newcomers/,Technology
+1144,http://community.apache.org/newbiefaq.html,Technology
+1145,http://uw.edu/studentlife,Education
+1146,http://uw.edu/parents,Education
+1147,http://uw.edu/facultystaff,Education
+1148,http://uw.edu/alumni,Education
+1149,http://artsuw.org/,Education
+1150,http://uw.edu/maps,Education
+1151,http://myuw.washington.edu/,Education
+1152,http://uw.edu/social,Education
+1153,http://www.washington.edu/boundless/,Education
+1154,http://www.facebook.com/UofWA,Education
+1155,http://twitter.com/UW,Education
+1156,http://instagram.com/uofwa,Education
+1157,http://www.youtube.com/user/uwhuskies,Education
+1158,http://www.linkedin.com/company/university-of-washington,Education
+1159,http://www.pinterest.com/uofwa/,Education
+1160,http://www.uw.edu/accessibility,Education
+1161,http://uw.edu/contact,Education
+1162,http://www.washington.edu/jobs,Education
+1163,http://www.washington.edu/safety,Education
+1164,http://my.uw.edu/,Education
+1165,http://www.washington.edu/rules/wac,Education
+1166,http://www.washington.edu/online/privacy/,Education
+1167,http://www.washington.edu/online/terms/,Education
+1168,http://www.chinaqw.com/,News
+1169,http://www.chinaqw.com/gqqj/,News
+1170,http://www.chinaqw.com/hwjy/,News
+1171,http://feedback.chinanews.com/,News
+1172,http://mail.chinanews.com.cn/,News
+1173,http://www.chinaso.com/,News
+1174,http://weibo.com/chinanewsv,News
+1175,http://t.qq.com/chinanews,News
+1176,http://weibo.com/u/3604378011,News
+1177,http://t.qq.com/cns,News
+1178,http://chinanewsv.t.sohu.com/,News
+1179,http://www.ecns.cn/,News
+1180,http://www.ah.chinanews.com/,News
+1181,http://www.bj.chinanews.com/,News
+1182,http://www.cq.chinanews.com/,News
+1183,http://www.fj.chinanews.com/,News
+1184,http://www.gs.chinanews.com/,News
+1185,http://www.gz.chinanews.com/,News
+1186,http://www.gd.chinanews.com/,News
+1187,http://www.gx.chinanews.com/,News
+1188,http://www.hi.chinanews.com/,News
+1189,http://www.heb.chinanews.com/,News
+1190,http://www.ha.chinanews.com/,News
+1191,http://www.hb.chinanews.com/,News
+1192,http://www.hn.chinanews.com/,News
+1193,http://www.hlj.chinanews.com/,News
+1194,http://www.js.chinanews.com/,News
+1195,http://www.jx.chinanews.com/,News
+1196,http://www.jl.chinanews.com/,News
+1197,http://www.ln.chinanews.com/,News
+1198,http://www.nx.chinanews.com/,News
+1199,http://www.qh.chinanews.com/,News
+1200,http://www.sd.chinanews.com/,News
+1201,http://www.sx.chinanews.com/,News
+1202,http://www.shx.chinanews.com/,News
+1203,http://www.sh.chinanews.com/,News
+1204,http://www.sc.chinanews.com/,News
+1205,http://www.hkcna.hk/,News
+1206,http://www.xj.chinanews.com/,News
+1207,http://www.bt.chinanews.com/,News
+1208,http://www.yn.chinanews.com/,News
+1209,http://www.zj.chinanews.com/,News
+1210,http://www.jwview.com/,News
+1211,http://picture.v.vote8.cn/m,News
+1212,http://www.ecns.cn/military/2018/05-22/303364.shtml,News
+1213,http://www.ecns.cn/2018/05-22/303381.shtml,News
+1214,http://www.ecns.cn/business/2018/05-22/303362.shtml,News
+1215,http://www.ecns.cn/2018/05-22/303371.shtml,News
+1216,http://www.ecns.cn/business/2018/05-22/303374.shtml,News
+1217,http://www.ecns.cn/2018/05-22/303377.shtml,News
+1218,http://www.chinanews.com/business/,News
+1219,http://www.chinanews.com/life/,News
+1220,http://www.chinanews.com/finance/,News
+1221,http://www.xinhuanet.com/politics/jyssw/tset20200814.htm,News
+1222,http://2020sjxgq.chinanews.com/,News
+1223,http://www.cnsphoto.com/,News
+1224,http://epaper.chinanews.com/,News
+1225,http://channel.chinanews.com/cns/cl/hr-hrshq.shtml,News
+1226,http://www.ecns.cn/photo/pic.d.html?nid=94,News
+1227,http://www.ecns.cn/news/more.d.html?nid=95,News
+1228,http://www.ecns.cn/news/cns-wire/2020-08-28/detail-ifzzpxeu2685523.shtml,News
+1229,http://www.ecns.cn/news/cns-wire/2020-08-24/detail-ifzzismq8705101.shtml,News
+1230,http://www.ecns.cn/cns-wire/2020-08-20/detail-ifzzismq8704407.shtml,News
+1231,http://www.ecns.cn/news/cns-wire/2020-08-20/detail-ifzzismq8704374.shtml,News
+1232,http://www.ecns.cn/news/2020-08-19/detail-ifzzcmwe9699571.shtml,News
+1233,http://www.ecns.cn/video/video.d.html?nid=97,News
+1234,http://www.zytzb.gov.cn/,News
+1235,http://www.gqb.gov.cn/,News
+1236,http://www.fmprc.gov.cn/,News
+1237,http://www.ccdi.gov.cn/,News
+1238,http://www.gwytb.gov.cn/,News
+1239,http://www.chinacourt.org/,News
+1240,http://www.people.com.cn/,News
+1241,http://www.xinhuanet.com/,News
+1242,http://www.china.org.cn/,News
+1243,http://www.cctv.com/,News
+1244,http://www.cri.cn/,News
+1245,http://www.youth.cn/,News
+1246,http://www.ce.cn/,News
+1247,http://www.taiwan.cn/,News
+1248,http://www.tibet.cn/,News
+1249,http://www.gmw.cn/,News
+1250,http://www.cnr.cn/,News
+1251,http://www.cyol.com/,News
+1252,http://www.chinamil.com.cn/,News
+1253,http://www.china.com/,News
+1254,http://www.thebeijingnews.com/,News
+1255,http://www.bjd.com.cn/,News
+1256,http://www.sctv.com/,News
+1257,http://www.cqnews.net/,News
+1258,http://www.rednet.cn/,News
+1259,http://www.e23.cn/,News
+1260,http://www.jiaodong.net/,News
+1261,http://www.nen.com.cn/,News
+1262,http://www.newssc.org/,News
+1263,http://www.hebei.com.cn/,News
+1264,http://www.southcn.com/,News
+1265,http://www.enorth.com.cn/,News
+1266,http://www.eastday.com/,News
+1267,http://news.sina.com.cn/,News
+1268,http://www.sohu.com/,News
+1269,http://www.163.com/,News
+1270,http://www.qq.com/,News
+1271,http://www.viewcn.com/,News
+1272,http://www.eastmoney.com/,News
+1273,http://www.jrj.com.cn/,News
+1274,http://www.wisers.com/,News
+1275,http://www.fang.com/,News
+1276,http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002003042,News
+1277,http://www.legaldaily.com.cn/,News
+1278,http://www.ecns.cn/video/2020-08-31/detail-ifzzpxeu2685808.shtml,News
+1279,http://datasketches.incubator.apache.org/,Technology
+1280,http://tvm.incubator.apache.org/,Technology
