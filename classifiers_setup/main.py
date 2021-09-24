@@ -25,7 +25,7 @@ def main():
 
     #prep.most_correlated_terms()
 
-    if configuration.PLOT_CON:
+    if configuration.PLOT_CM:
 
         training_instances_plot(df)
         print("Head of category dataframe: \n {} \n Category to ID dictionary: {} \n ID to category dictionary: {}".format(category_df, category_to_id, id_to_category))

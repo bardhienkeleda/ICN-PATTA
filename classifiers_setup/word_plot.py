@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 BASIC_DIRECTORY = (abspath(dirname(__file__)))
 domain_path = BASIC_DIRECTORY + "/domain/URL_Classification.csv"
 tfidf_vector_path = BASIC_DIRECTORY + "/components/saved_tfidf_vectors/"
-words = "866"
+words = "x"
 grams = "1gram_"
 
 
@@ -101,13 +101,13 @@ if __name__ == "__main__":
 
 
     feature_names = tfidf.get_feature_names()
+    #print(feature_names)
     #df = top_tfidf_feats(train_features[1], feature_names, 5)
     #df = top_feats_in_doc(train_features, feature_names, 1, 5)
     #df = top_mean_feats(train_features, feature_names, None, 0.1, 1000)
-    dfs = top_feats_by_class(train_features, train_labels, feature_names, 0.1, 10)
-    print(dfs[1])
-    words = ['abadns42jd00', 'amico', 'news', 'www']
-    for word in words:
-        print(word.isalpha())
+    dfs = top_feats_by_class(train_features, train_labels, feature_names, 0.1, 50)
+    print(dfs[4])
+    #words = ['abadns42jd00', 'amico', 'news', 'www']
+    #for word in words:
+    #    print(word.isalpha())
     #plot_tfidf_classfeats_h(dfs)
-    

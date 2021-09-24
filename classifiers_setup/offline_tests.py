@@ -26,7 +26,7 @@ def preprocessing(df):
     It returns the preprocessed dataframe.
     """
     not_to_keep = []
-    
+
     """
     for webpg in range (len(new_configuration.webpages_list)):
         div = re.sub('[^A-Za-z0-9]+', ' ', str(new_configuration.webpages_list[webpg]))
@@ -72,35 +72,35 @@ def preprocessing(df):
     dataframe.columns = ['Full_NDN_interest', 'Label']
 
     return dataframe
-    
+
 if __name__ == '__main__':
 
     dataframe = pd.read_csv(domain_path)
     dataframe = dataframe.drop('Unnamed: 0', 1)
     print(dataframe.head(5))
-    
+
     dataframe = preprocessing(dataframe)
     dataframe["Category_ID"] = 0
     print(dataframe.head(5))
-    
-    
+
+
     with open(BASIC_DIRECTORY + "/" + "labels_dictionary.txt", "rb") as file:
         labels_dictionary = pickle.load(file)
     print(labels_dictionary)
     loaded_model = pickle.load(open(models_path + "multinomial_model_1gram_679feat.sav", "rb"),  encoding="latin1")
     loaded_tfidf = pickle.load(open(tfidf_vector_path + "tfidf_vector_1gram_679feat.pk", "rb"),  encoding="latin1")
-    
+
     test_features = loaded_tfidf.transform(dataframe['Full_NDN_interest']).toarray()
     print(test_features)
     test_labels = dataframe.Category_ID
     correct_prediction = 0
-    
+
     for row in range(len(test_features)):
         print(dataframe['Full_NDN_interest'][row])
         prediction = loaded_model.predict([test_features[row]])
         print(prediction)
         if prediction == 0:
             correct_prediction += 1
-    
+
     acc = correct_prediction / len(test_features)
     print(acc)
