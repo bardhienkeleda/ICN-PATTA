@@ -16,6 +16,4 @@ The repo contains three main modules:
 
  Running  `python main.py` will do the job.
 
-## Parameter Tuning
 
- In order to tune the scripts with the desired parameters, `utils/configuration.py` should be changed. You can change the number of the considered webpages for the analysis (`MAX_WEBPAGES` and `MIN_WEBPAGES`), TF-IDF tuning with respect to the number of features used and N-grams (`NUMBER_FEATURES` and `GRAMS`). Finally, for plotting the desired graphs and results, change `PLOT_CON` to True or False.
