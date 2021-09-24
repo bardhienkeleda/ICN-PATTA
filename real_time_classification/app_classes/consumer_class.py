@@ -5,7 +5,8 @@ from minindn.apps.app_manager import AppManager
 from logging import debug
 
 BASE_PATH = abspath(dirname(__file__) + "/../app_executables")
-
+#BASE_PATH = "/home/bardhi/mini-ndn/examples/my_simulation/app_executables/"
+print(BASE_PATH)
 """
 Class for the costumized consumer application that inherits methods from Application class.
 It gets the command line parameters for the consumer(s) node(s) and excecutes the application that should run in the consumer node.
