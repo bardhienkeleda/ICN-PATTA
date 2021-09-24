@@ -43,6 +43,7 @@ if __name__ == '__main__':
     # read csv and drop repetitions
     requests = pd.read_csv(args.requestsFile, keep_default_na=False)["Full request URI"]
 
+
     if args.prefixes is not None:
         pref = args.prefixes
         l_pref = len(args.prefixes)
@@ -72,7 +73,6 @@ if __name__ == '__main__':
         if args.dry:
             log.info("Dry: %s" % unquote(name.toUri()))
             return
-
         interest = Interest() \
             .setMustBeFresh(False) \
             .setCanBePrefix(True) \

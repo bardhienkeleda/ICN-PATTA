@@ -7,10 +7,10 @@ import pickle
 import numpy as np
 import configuration
 import re
+import wordninja
 from sklearn.feature_extraction.text import TfidfVectorizer
 from os.path import dirname, abspath
 
-tfidf_vectors_path = (abspath(dirname(__file__)) + "/saved_tfidf_vectors")
 
 def preprocessing(dataframe):
     """
@@ -30,12 +30,16 @@ def preprocessing(dataframe):
     # prepare a list of words that should be droped
     #words_to_delete = [item for sublist in not_to_keep for item in sublist]
     not_to_keep.append('http')
+    not_to_keep.append('https')
+    not_to_keep.append('ftp')
+    not_to_keep.append('www')
     not_to_keep.append('wwwf')
-    #words_to_delete.append('co')
+    not_to_keep.append('www2')
+    not_to_keep.append('www3')
+    not_to_keep.append('co') #
     not_to_keep.append('php')
     not_to_keep.append('html')
-    #words_to_delete.append('cn')
-    not_to_keep.append('www')
+    not_to_keep.append('cn')
     not_to_keep.append('ndn')
     not_to_keep.append('PR')
     not_to_keep.append('P1')
@@ -47,9 +51,16 @@ def preprocessing(dataframe):
     for row in range (len(dataframe)):
         dataframe['Interest_Request'][row] = re.sub('[^A-Za-z0-9]+', ' ', str(dataframe['Interest_Request'][row]))
         res = dataframe['Interest_Request'][row].split()
+        results = []
+        for word in res:
+            #print("Printing word {}".format(word))
+            word_list = wordninja.split(word)
+            #print("Printing word list {}".format(word_list))
+            results.append(word_list)
+        flat_results = [item for sublist in results for item in sublist]
 
-        for index, word in enumerate(res):
-            if word in not_to_keep:
+        for index, word in enumerate(flat_results):
+            if (len(word) <= 3) or (word.isalpha == False) or (word in not_to_keep):
                 if index == 0:
                     dataframe['Interest_Request'][row] = dataframe['Interest_Request'][row].replace(word + ' ', ' ')
                 elif index == (len(res) - 1):

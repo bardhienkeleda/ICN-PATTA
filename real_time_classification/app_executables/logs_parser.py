@@ -21,7 +21,7 @@ class Parsing():
     def __init__(self, analysisModel, analysisTime):
         self.log = logging.getLogger("attacker:parsing")
         self.working_directory =  "/tmp/minindn/"
-        self.basic_directory = "/home/bardhi/ICN-PATTA/real_time_classification/app_executables"
+        self.basic_directory = "/home/bardhi/mini-ndn/examples/my_simulation/app_executables"
         self.mid_path_model = "/saved_models/"
         self.mid_path_vector = "/saved_tfidf_vectors/"
         self.start_analysis_pointer = 0
@@ -41,305 +41,96 @@ class Parsing():
             labels_dictionary = pickle.load(file)
             #self.log.info(labels_dictionary)
 
-        if self.analysisModel == "linear_1_500":
-        	self.log.info("Attacker is using the Linear SVC model trained with 1-grams on 500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1gram_500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_500feat.pk", "rb"))
+        if self.analysisModel == "linear_1_893":
+        	self.log.info("Attacker is using the Linear SVC model trained with 1-grams on 893-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1gram_893feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_893feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1_900":
-        	self.log.info("Attacker is using the Linear SVC model trained with 1-grams on 900-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1gram_900feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_900feat.pk", "rb"))
+        elif self.analysisModel == "linear_1_1785":
+        	self.log.info("Attacker is using the Linear SVC model trained with 1-grams on 1785-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1gram_1785feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1785feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1_1300":
-        	self.log.info("Attacker is using the Linear SVC model trained with 1-grams on 1300-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_1gram_1300feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1300feat.pk", "rb"))
+        elif self.analysisModel == "linear_2_460":
+        	self.log.info("Attacker is using the Linear SVC model trained with 2-grams on 460-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_2gram_460feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_460feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1_1642":
-        	self.log.info("Attacker is using the Linear SVC model trained with 1-grams on 1642-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_1gram_1642feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1642feat.pk", "rb"))
+        elif self.analysisModel == "linear_2_917":
+        	self.log.info("Attacker is using the Linear SVC model trained with 2-grams on 917-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_2gram_917feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_917feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_2_500":
-        	self.log.info("Attacker is using the Linear SVC model trained with 2-grams on 500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_2gram_500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_500feat.pk", "rb"))
+        elif self.analysisModel == "linear_1and2_1350":
+        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 1350-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_1and2gram_1350feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1350feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_2_700":
-        	self.log.info("Attacker is using the Linear SVC model trained with 2-grams on 700-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_2gram_700feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_700feat.pk", "rb"))
+        elif self.analysisModel == "linear_1and2_2700":
+        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 2700-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1and2gram_2700feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2700feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_2_900":
-        	self.log.info("Attacker is using the Linear SVC model trained with 2-grams on 900-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_2gram_900feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_900feat.pk", "rb"))
+        elif self.analysisModel == "multinomial_1_893":
+        	self.log.info("Attacker is using the Multinomial NB model trained with 1-grams on 893-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1gram_893feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_893feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_2_1362":
-        	self.log.info("Attacker is using the Linear SVC model trained with 2-grams on 1362-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_2gram_1362feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_1362feat.pk", "rb"))
+        elif self.analysisModel == "multinomial_1_1785":
+        	self.log.info("Attacker is using the MultinomialNB model trained with 1-grams on 1785-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1gram_1785feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1785feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1and2_500":
-        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model +"linear_model_1and2gram_500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_500feat.pk", "rb"))
+        elif self.analysisModel == "multinomial_2_460":
+        	self.log.info("Attacker is using the MultinomialNB model trained with 2-grams on 460-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_2gram_460feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_460feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1and2_900":
-        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 900-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1and2gram_900feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_900feat.pk", "rb"))
+        elif self.analysisModel == "multinomial_2_917":
+        	self.log.info("Attacker is using the MultinomialNB model trained with 2-grams on 917-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_2gram_917feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_917feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1and2_1300":
-        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 1300-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1and2gram_1300feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1300feat.pk", "rb"))
+        elif self.analysisModel == "multinomial_1and2_1350":
+        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 1350-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_1350feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1350feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1and2_1700":
-        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 1700-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1and2gram_1700feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1700feat.pk", "rb"))
+        elif self.analysisModel == "multinomial_1and2_2700":
+        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 2700-features\n")
+        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_2700feat.sav", "rb"))
+        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2700feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1and2_2100":
-        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 2100-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1and2gram_2100feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2100feat.pk", "rb"))
+        elif self.analysisModel == "svm_1_893":
+            self.log.info("Attacker is using the SVC model trained with 1-grams on 893-features\n")
+            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1gram_893feat.sav", "rb"))
+            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_893feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1and2_2500":
-        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 2500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1and2gram_2500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2500feat.pk", "rb"))
+        elif self.analysisModel == "svm_1_1785":
+            self.log.info("Attacker is using the SVC model trained with 1-grams on 1785-features\n")
+            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1gram_1785feat.sav", "rb"))
+            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1785feat.pk", "rb"))
 
-        elif self.analysisModel == "linear_1and2_3836":
-        	self.log.info("Attacker is using the Linear SVC model trained with both 1 and 2-grams on 3836-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "linear_model_1and2gram_3836feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_3836feat.pk", "rb"))
+        elif self.analysisModel == "svm_2_460":
+            self.log.info("Attacker is using the SVC model trained with 2-grams on 460-features\n")
+            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_2gram_460feat.sav", "rb"))
+            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_460feat.pk", "rb"))
 
-        elif self.analysisModel == "multinomial_1_500":
-        	self.log.info("Attacker is using the Multinomial NB model trained with 1-grams on 500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1gram_500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_500feat.pk", "rb"))
+        elif self.analysisModel == "svm_2_917":
+            self.log.info("Attacker is using the SVC model trained with 2-grams on 917-features\n")
+            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_2gram_917feat.sav", "rb"))
+            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_917feat.pk", "rb"))
 
-        elif self.analysisModel == "multinomial_1_900":
-        	self.log.info("Attacker is using the MultinomialNB model trained with 1-grams on 900-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1gram_900feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_900feat.pk", "rb"))
+        elif self.analysisModel == "svm_1and2_1350":
+            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 1350-features\n")
+            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_1350feat.sav", "rb"))
+            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1350feat.pk", "rb"))
 
-        elif self.analysisModel == "multinomial_1_1300":
-        	self.log.info("Attacker is using the MultinomialNB model trained with 1-grams on 1300-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1gram_1300feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1300feat.pk", "rb"))
+        elif self.analysisModel == "svm_1and2_2700":
+            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 2700-features\n")
+            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_2700feat.sav", "rb"))
+            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2700feat.pk", "rb"))
 
-        elif self.analysisModel == "multinomial_1_1642":
-        	self.log.info("Attacker is using the MultinomialNB model trained with 1-grams on 1642-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1gram_1642feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1642feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_2_500":
-        	self.log.info("Attacker is using the MultinomialNB model trained with 2-grams on 500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_2gram_500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_2_700":
-        	self.log.info("Attacker is using the MultinomialNB model trained with 2-grams on 700-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_2gram_700feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_700feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_2_900":
-        	self.log.info("Attacker is using the MultinomialNB model trained with 2-grams on 900-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_2gram_900feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_2_1362":
-        	self.log.info("Attacker is using the MultinomialNB model trained with 2-grams on 1362-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_2gram_1362feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_1362feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_1and2_500":
-        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_1and2_900":
-        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 900-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_900feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_1and2_1300":
-        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 1300-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_1300feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1300feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_1and2_1700":
-        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 1700-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_1700feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1700feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_1and2_2100":
-        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 2100-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_2100feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2100feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_1and2_2500":
-        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 2500-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_2500feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2500feat.pk", "rb"))
-
-        elif self.analysisModel == "multinomial_1and2_3836":
-        	self.log.info("Attacker is using the MultinomialNB model trained with both 1 and 2-grams on 3836-features\n")
-        	loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "multinomial_model_1and2gram_3836feat.sav", "rb"))
-        	loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_3836feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1_500":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 1-grams on 500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1gram_500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1_900":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 1-grams on 900-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1gram_900feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1_1300":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 1-grams on 1300-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1gram_1300feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1300feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1_1642":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 1-grams on 1642-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1gram_1642feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1642feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_2_500":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 2-grams on 500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_2gram_500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_2_700":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 2-grams on 700-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_2gram_700feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_700feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_2_900":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 2-grams on 900-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_2gram_900feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_2_1362":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with 2-grams on 1362-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_2gram_1362feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_1362feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1and2_500":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with both 1 and 2-grams on 500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1and2gram_500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1and2_900":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with both 1 and 2-grams on 900-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1and2gram_900feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1and2_1300":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with both 1 and 2-grams on 1300-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1and2gram_1300feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1300feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1and2_1700":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with both 1 and 2-grams on 1700-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1and2gram_1700feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1700feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1and2_2100":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with both 1 and 2-grams on 2100-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1and2gram_2100feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2100feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1and2_2500":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with both 1 and 2-grams on 2500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1and2gram_2500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2500feat.pk", "rb"))
-
-        elif self.analysisModel == "rf_1and2_3836":
-            self.log.info("Attacker is using the RandomForestClassifier model trained with both 1 and 2-grams on 3836-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "rf_model_1and2gram_3836feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_3836feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1_500":
-            self.log.info("Attacker is using the SVC model trained with 1-grams on 500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1gram_500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1_900":
-            self.log.info("Attacker is using the SVC model trained with 1-grams on 900-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1gram_900feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1_1300":
-            self.log.info("Attacker is using the SVC model trained with 1-grams on 1300-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1gram_1300feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1300feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1_1642":
-            self.log.info("Attacker is using the SVC model trained with 1-grams on 1642-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1gram_1642feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1gram_1642feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_2_500":
-            self.log.info("Attacker is using the SVC model trained with 2-grams on 500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_2gram_500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_2_700":
-            self.log.info("Attacker is using the SVC model trained with 2-grams on 700-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_2gram_700feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_700feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_2_900":
-            self.log.info("Attacker is using the SVC model trained with 2-grams on 900-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_2gram_900feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_2_1362":
-            self.log.info("Attacker is using the SVC model trained with 2-grams on 1362-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_2gram_1362feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_2gram_1362feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1and2_500":
-            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_500feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1and2_900":
-            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 900-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_900feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_900feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1and2_1300":
-            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 1300-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_1300feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1300feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1and2_1700":
-            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 1700-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_1700feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_1700feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1and2_2100":
-            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 2100-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_2100feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2100feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1and2_2500":
-            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 2500-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_2500feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_2500feat.pk", "rb"))
-
-        elif self.analysisModel == "svm_1and2_3836":
-            self.log.info("Attacker is using the SVC model trained with both 1 and 2-grams on 3836-features\n")
-            loaded_model = pickle.load(open(self.basic_directory + self.mid_path_model + "svm_model_1and2gram_3836feat.sav", "rb"))
-            loaded_tfidf = pickle.load(open(self.basic_directory + self.mid_path_vector + "tfidf_vector_1and2gram_3836feat.pk", "rb"))
         else:
         	self.log.info("None of the models is passed for analysis\n")
 
