@@ -44,18 +44,16 @@ class SpecialMinindn(Minindn):
 			parser.add_argument('-a', '--alpha', type=float, help="Alpha parameter for Zipf distribution")
 			parser.add_argument("-sr", "--sendingRate", type=float, help="Consumer's sending rate interval") # from 1.0 to 25.0
 			parser.add_argument("-at", "--attackerTime", type=float, help="Time for attacker's analysis (expressed in seconds)")
-			parser.add_argument("-am","--attackerModel", type=str, help="Machine Learning model used by the attacker", choices = ["linear_1_500","linear_1_900",
-		                                "linear_1_1300", "linear_1_1642", "linear_2_500", "linear_2_700","linear_2_900", "linear_2_1362",
-		                                "linear_1and2_500", "linear_1and2_900", "linear_1and2_1300", "linear_1and2_1700","linear_1and2_2100", "linear_1and2_2500", "linear_1and2_3836",
-		                                "multinomial_1_500","multinomial_1_900", "multinomial_1_1300", "multinomial_1_1642",
-		                                "multinomial_2_500", "multinomial_2_700","multinomial_2_900", "multinomial_2_1362",
-		                                "multinomial_1and2_500", "multinomial_1and2_900", "multinomial_1and2_1300", "multinomial_1and2_1700","multinomial_1and2_2100", "multinomial_1and2_2500", "multinomial_1and2_3836",
-		                                "rf_1_500","rf_1_900", "rf_1_1300", "rf_1_1642",
-		                                "rf_2_500", "rf_2_700","rf_2_900", "rf_2_1362",
-		                                "rf_1and2_500", "rf_1and2_900", "rf_1and2_1300", "rf_1and2_1700","rf_1and2_2100", "rf_1and2_2500", "rf_1and2_3836",
-		                                "svm_1_500","svm_1_900", "svm_1_1300", "svm_1_1642",
-		                                "svm_2_500", "svm_2_700","svm_2_900", "svm_2_1362",
-		                                "svm_1and2_500", "svm_1and2_900", "svm_1and2_1300", "svm_1and2_1700","svm_1and2_2100", "svm_1and2_2500", "svm_1and2_3836"])
+			parser.add_argument("-am","--attackerModel", type=str, help="Machine Learning model used by the attacker",
+								choices = ["linear_1_893","linear_1_1785",
+								"linear_2_460", "linear_2_917",
+								"linear_1and2_1350", "linear_1and2_2700",
+								"multinomial_1_893","multinomial_1_1785",
+								"multinomial_2_500", "multinomial_2_917",
+								"multinomial_1and2_1350", "multinomial_1and2_2700",
+								"svm_1_893","svm_1_1785",
+								"svm_2_460", "svm_2_917",
+								"svm_1and2_1350", "svm_1and2_2700"])
 			parser.add_argument("--info", action="store_true", help="Only print dataset info") # --INFO
 			parser.add_argument("--dry", action="store_true", help="Only print requests") # --dry
 			parser.add_argument("-cstrat", '--cacheStrategy', help="Strategy used by the router(s) during the simulation", choices=["lru", "lfu", 						"priority_fifo"],default="lru")
