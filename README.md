@@ -9,7 +9,7 @@ The project contains two main modules:
 Documentation in order reproduce our work can be found in:
 - [Classifiers setup phase:] (https://github.com/bardhienkeleda/ICN-PATTA/blob/main/classifiers_setup/README.md)
 - [Real-time classification phase:] (https://github.com/bardhienkeleda/ICN-PATTA/blob/main/real_time_classification/README.md)
-Other documentation: results computation, logs and other details can be found in (https://gitlab.com/bardhienkeleda/icn-patta-dataset)
+- Other documentation: results computation, logs and other details can be found in (https://gitlab.com/bardhienkeleda/icn-patta-dataset)
 
 ## Setup
 
