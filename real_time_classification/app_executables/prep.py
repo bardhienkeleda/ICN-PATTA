@@ -19,13 +19,6 @@ def preprocessing(dataframe):
     It returns the preprocessed data in form of a dataframe.
     """
     not_to_keep = []
-    """
-    for webpg in range (len(configuration.webpages_list)):
-        div = re.sub('[^A-Za-z0-9]+', ' ', str(configuration.webpages_list[webpg]))
-        not_to_keep.append(div)
-    for webpg in range (len(not_to_keep)):
-        not_to_keep[webpg] = not_to_keep[webpg].split(" ")
-    """
 
     # prepare a list of words that should be droped
     #words_to_delete = [item for sublist in not_to_keep for item in sublist]
