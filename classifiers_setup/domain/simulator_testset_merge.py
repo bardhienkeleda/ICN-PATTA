@@ -11,7 +11,7 @@ import glob
 import pandas as pd
 from sklearn.utils import shuffle
 
-#os.chdir("/Users/enkeledabardhi/opt/MyProjects/MasterThesis/")
+os.chdir("/Users/enkeledabardhi/Desktop/ICN-PATTA/classifiers_setup/domain/test_domains/")
 
 #all_files = glob.glob(os.path.join(path, "*.csv"))
 #extension = 'csv'
@@ -72,8 +72,13 @@ dfs = shuffle(dfs)
 dfs = dfs.reset_index()
 dfs = dfs.drop("index", axis = 1)
 print(dfs)
-dfs.to_csv("sim_test_set_lab.csv")
+dfs.to_csv("sim_test_set_lab_new.csv")
 
+#dfs = dfs.drop("index", axis = 1)
+dfs = dfs.drop('Label', axis=1)
+#print(dfs)
+dfs.to_csv("sim_test_set_new.csv")
+"""
 dfs['Full request URI'] = dfs['Full request URI'].str[7:]
 #dfs = dfs.drop("index", axis = 1)
 #print(dfs.head(10))
@@ -91,4 +96,5 @@ for i in range(len(dfs)):
 #dfs = dfs.drop("index", axis = 1)
 dfs = dfs.drop('Label', axis=1)
 #print(dfs)
-dfs.to_csv("sim_test_set.csv")
+dfs.to_csv("sim_test_set_new.csv")
+"""
